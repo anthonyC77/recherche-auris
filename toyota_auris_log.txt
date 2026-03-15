@@ -1769,3 +1769,41 @@ PermissionError: [Errno 13] Permission denied: 'C:\\Users\\antho\\RechercheVoitu
 [2026-03-14 18:34:09]   ✅ Message Telegram envoyé
 [2026-03-14 18:34:11]   ✅ Message Telegram envoyé
 [2026-03-14 18:34:14]   ✅ CSV envoyé sur Telegram
+[2026-03-15 19:33:26] ╔══════════════════════════════════════════════════╗
+[2026-03-15 19:33:26] ║  RECHERCHE TOYOTA AURIS HYBRIDE TOIT PANORAMIQUE ║
+[2026-03-15 19:33:26] ╚══════════════════════════════════════════════════╝
+[2026-03-15 19:33:26] Vérification des annonces existantes...
+[2026-03-15 19:33:26]   Vérification de 10 annonces en cours...
+[2026-03-15 19:33:26]   🗑️  Supprimée (désactivée) : Toyota auris break full options
+[2026-03-15 19:33:27]   🗑️  Supprimée (désactivée) : TOYOTA AURIS 1.8L - VVT-i HSD 16V CVT Hybride - 136 cv - Garantie 6 mo
+[2026-03-15 19:33:27]   🗑️  Supprimée (désactivée) : Toyota Auris Hybride Touring Sports 136 ch
+[2026-03-15 19:33:28]   🗑️  Supprimée (désactivée) : Toyota Auris Hybride 136h – Toit panoramique – Boîte auto – 2015
+[2026-03-15 19:33:28]   🗑️  Supprimée (désactivée) : Toyota Auris Hybride
+[2026-03-15 19:33:29]   🗑️  Supprimée (désactivée) : Toyota Auris
+[2026-03-15 19:33:30]   🗑️  Supprimée (désactivée) : Toyota Auris SPORTS Touring 136H - EDITION DYNAMIC TOIT PANORAMIQUE 1E
+[2026-03-15 19:33:31]   🗑️  Supprimée (désactivée) : Toyota Auris hybride full options
+[2026-03-15 19:33:31]   🗑️  Supprimée (désactivée) : Toyota Auris Touring Sport TOUTES OPTIONS
+[2026-03-15 19:33:32]   🗑️  Supprimée (désactivée) : Toyota auris TS sport full options
+[2026-03-15 19:33:32]   Nettoyage terminé : 10 annonce(s) supprimée(s), 0 restantes
+[2026-03-15 19:33:32] Annonces actives connues : 0
+[2026-03-15 19:33:32] === Leboncoin.fr — démarrage ===
+[2026-03-15 19:33:32]   API LBC mobile HTTP 403
+[2026-03-15 19:33:32]   Fallback : scraping page de recherche LBC...
+[2026-03-15 19:33:42]   LeBonCoin : impossible de récupérer les annonces
+[2026-03-15 19:33:42] Pause entre les deux sites...
+[2026-03-15 19:33:47] === La Centrale.fr — démarrage (Playwright/Chromium) ===
+[2026-03-15 19:33:48]   Chargement accueil La Centrale...
+[2026-03-15 19:33:51]   Chargement résultats de recherche...
+[2026-03-15 19:33:54]   0 annonces trouvées
+[2026-03-15 19:33:54] === La Centrale : 0 annonce(s) ===
+[2026-03-15 19:33:54]   CSV trié (0 annonces) : proximité Ariège → km → prix
+[2026-03-15 19:33:54] 
+[2026-03-15 19:33:54] ══════════════════ RÉSUMÉ ══════════════════
+[2026-03-15 19:33:54] Total trouvées : 0
+[2026-03-15 19:33:54] Nouvelles      : 0
+[2026-03-15 19:33:54] Déjà connues   : 0
+[2026-03-15 19:33:54] Aucune nouvelle annonce depuis la dernière recherche.
+[2026-03-15 19:33:54] Résultats sauvegardés dans : /home/runner/work/recherche-auris/recherche-auris/toyota_auris_panoramique.csv
+[2026-03-15 19:33:54] ════════════════════════════════════════════
+[2026-03-15 19:33:55]   ✅ Message Telegram envoyé
+[2026-03-15 19:33:56]   ✅ CSV envoyé sur Telegram
