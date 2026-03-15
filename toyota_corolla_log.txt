@@ -23,3 +23,28 @@
 [2026-03-15 20:05:57] ════════════════════════════════════════════
 [2026-03-15 20:05:57]   ✅ Message Telegram envoyé
 [2026-03-15 20:05:58]   ⚠️  CSV introuvable, impossible de l'envoyer.
+[2026-03-15 20:15:22] ╔═════════════════════════════════════════════════╗
+[2026-03-15 20:15:22] ║  Toyota Corolla Break Hybride Toit Panoramique  ║
+[2026-03-15 20:15:22] ╚═════════════════════════════════════════════════╝
+[2026-03-15 20:15:22] Vérification des annonces existantes...
+[2026-03-15 20:15:22] Annonces actives connues : 0
+[2026-03-15 20:15:22] === Leboncoin.fr — démarrage ===
+[2026-03-15 20:15:22]   API LBC mobile HTTP 403
+[2026-03-15 20:15:22]   Fallback : scraping page de recherche LBC...
+[2026-03-15 20:15:30]   LeBonCoin : impossible de récupérer les annonces
+[2026-03-15 20:15:30] Pause entre les deux sites...
+[2026-03-15 20:15:35] === La Centrale.fr — démarrage (Playwright/Chromium) ===
+[2026-03-15 20:15:36]   Chargement accueil La Centrale...
+[2026-03-15 20:15:39]   Chargement résultats de recherche...
+[2026-03-15 20:15:42]   0 annonces trouvées
+[2026-03-15 20:15:42] === La Centrale : 0 annonce(s) ===
+[2026-03-15 20:15:42] 
+[2026-03-15 20:15:42] ══════════════════ RÉSUMÉ ══════════════════
+[2026-03-15 20:15:42] Total trouvées : 0
+[2026-03-15 20:15:42] Nouvelles      : 0
+[2026-03-15 20:15:42] Déjà connues   : 0
+[2026-03-15 20:15:42] Aucune nouvelle annonce depuis la dernière recherche.
+[2026-03-15 20:15:42] Résultats sauvegardés dans : /home/runner/work/recherche-auris/recherche-auris/toyota_corolla_break.csv
+[2026-03-15 20:15:42] ════════════════════════════════════════════
+[2026-03-15 20:15:43]   ✅ Message Telegram envoyé
+[2026-03-15 20:15:44]   ⚠️  CSV introuvable, impossible de l'envoyer.

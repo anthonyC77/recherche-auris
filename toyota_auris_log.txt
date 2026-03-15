@@ -1836,3 +1836,32 @@ PermissionError: [Errno 13] Permission denied: 'C:\\Users\\antho\\RechercheVoitu
 [2026-03-15 20:05:32]   ✅ Message Telegram envoyé
 [2026-03-15 20:05:33]   ✅ CSV envoyé sur Telegram
 [2026-03-15 20:05:33] ⏳ Pause entre les recherches...
+[2026-03-15 20:14:53] ╔═══════════════════════════════════════════════════════╗
+[2026-03-15 20:14:53] ║  Toyota Auris Touring Sport Hybride Toit Panoramique  ║
+[2026-03-15 20:14:53] ╚═══════════════════════════════════════════════════════╝
+[2026-03-15 20:14:53] Vérification des annonces existantes...
+[2026-03-15 20:14:53]   Vérification de 0 annonces en cours...
+[2026-03-15 20:14:53]   Nettoyage terminé : toutes les 0 annonces sont encore actives
+[2026-03-15 20:14:53] Annonces actives connues : 0
+[2026-03-15 20:14:53] === Leboncoin.fr — démarrage ===
+[2026-03-15 20:14:53]   API LBC mobile HTTP 403
+[2026-03-15 20:14:53]   Fallback : scraping page de recherche LBC...
+[2026-03-15 20:15:00]   LeBonCoin : impossible de récupérer les annonces
+[2026-03-15 20:15:00] Pause entre les deux sites...
+[2026-03-15 20:15:04] === La Centrale.fr — démarrage (Playwright/Chromium) ===
+[2026-03-15 20:15:05]   Chargement accueil La Centrale...
+[2026-03-15 20:15:09]   Chargement résultats de recherche...
+[2026-03-15 20:15:12]   0 annonces trouvées
+[2026-03-15 20:15:12] === La Centrale : 0 annonce(s) ===
+[2026-03-15 20:15:12]   CSV trié (0 annonces) : proximité Ariège → km → prix
+[2026-03-15 20:15:12] 
+[2026-03-15 20:15:12] ══════════════════ RÉSUMÉ ══════════════════
+[2026-03-15 20:15:12] Total trouvées : 0
+[2026-03-15 20:15:12] Nouvelles      : 0
+[2026-03-15 20:15:12] Déjà connues   : 0
+[2026-03-15 20:15:12] Aucune nouvelle annonce depuis la dernière recherche.
+[2026-03-15 20:15:12] Résultats sauvegardés dans : /home/runner/work/recherche-auris/recherche-auris/toyota_auris_panoramique.csv
+[2026-03-15 20:15:12] ════════════════════════════════════════════
+[2026-03-15 20:15:12]   ✅ Message Telegram envoyé
+[2026-03-15 20:15:14]   ✅ CSV envoyé sur Telegram
+[2026-03-15 20:15:14] ⏳ Pause entre les recherches...
