@@ -201,16 +201,20 @@ def is_auris(titre: str) -> bool:
 def is_touring_sport(titre: str, body: str = "") -> bool:
     """
     Vérifie que la carrosserie correspond aux mots-clés définis dans CONFIG["filtre_carrosserie"].
-    "ts" est cherché uniquement dans le titre pour éviter les faux positifs dans le body.
-    Les autres mots sont cherchés dans le titre ET la description.
+    - Liste vide [] ou clé absente → pas de filtre, toutes les annonces passent.
+    - "ts" est cherché uniquement dans le titre pour éviter les faux positifs dans le body.
+    - Les autres mots sont cherchés dans le titre ET la description.
     """
+    filtres = CONFIG.get("filtre_carrosserie", [])
+    if not filtres:
+        return True   # pas de filtre = tout accepter
+
     titre_low = titre.lower()
     body_low  = body.lower()
 
-    for mot in CONFIG["filtre_carrosserie"]:
+    for mot in filtres:
         mot_escaped = re.escape(mot.lower())
         if mot.lower() == "ts":
-            # "ts" uniquement dans le titre
             if re.search(r'\b' + mot_escaped + r'\b', titre_low):
                 return True
         else:
@@ -555,7 +559,9 @@ def has_panoramique(ad, body_text):
     - le titre de l'annonce
     - la description (body)
     """
-    keywords = CONFIG["filtre_pano"]
+    keywords = CONFIG.get("filtre_pano", [])
+    if not keywords:
+        return True   # pas de filtre panoramique = tout accepter
 
     # Attributs API
     for attr in ad.get("attributes", []):
