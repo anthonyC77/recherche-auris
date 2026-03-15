@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Agent de recherche : Toyota Auris Hybride avec Toit Panoramique
-Sites : leboncoin.fr (API) et lacentrale.fr (Playwright)
+Agent de recherche de voitures d'occasion
+Sites : leboncoin.fr et lacentrale.fr
 Auteur : Claude (Anthropic) — généré pour Anthony
 
 Installation requise (une seule fois) :
@@ -34,16 +34,82 @@ if sys.stderr and hasattr(sys.stderr, 'reconfigure'):
 import requests
 from bs4 import BeautifulSoup
 
-# ─── Configuration Telegram ────────────────────────────────────────────────────
-# Les valeurs sont lues depuis les variables d'environnement si disponibles
-# (GitHub Actions Secrets), sinon depuis les valeurs codées en dur (PC local).
-TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "8743026490:AAGXbfuTUJgoOUBbIg3V-kBcxegiRp9-Ra0")
-TELEGRAM_CHAT_ID   = os.environ.get("TELEGRAM_CHAT_ID",   "-5110629316")
+# ══════════════════════════════════════════════════════════════════════════════
+#  CONFIGURATION — ajoutez / modifiez les recherches ici
+#  Chaque entrée de SEARCHES = une voiture à surveiller indépendamment
+# ══════════════════════════════════════════════════════════════════════════════
 
-# ─── Paths ────────────────────────────────────────────────────────────────────
+_TG_TOKEN   = os.environ.get("TELEGRAM_BOT_TOKEN", "8743026490:AAGXbfuTUJgoOUBbIg3V-kBcxegiRp9-Ra0")
+_TG_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID",   "-5110629316")
+
+SEARCHES = [
+
+    # ── Recherche 1 : Toyota Auris Touring Sport Hybride Toit Pano ────────────
+    {
+        "nom_recherche":    "Toyota Auris Touring Sport Hybride Toit Panoramique",
+        "lbc_keywords":     "toyota auris hybride",
+        "lac_make_model":   "TOYOTA%3AAURIS",       # URL-encodé (: → %3A)
+        "lac_option":       "TOIT_PANORAMIQUE",
+        "lac_energy":       "HYBRID",
+        "filtre_marque":    "auris",                # mot obligatoire dans le titre
+        "filtre_carrosserie": ["touring", "break", "ts"],  # ts = titre seulement
+        "filtre_pano":      ["panoramique", "toit pano", "toit ouvrant panoramique", "skyview"],
+        "csv_file":         "toyota_auris_panoramique.csv",
+        "log_file":         "toyota_auris_log.txt",
+        "dept_ref":         "09",                   # département de référence (Ariège)
+        "telegram_token":   _TG_TOKEN,
+        "telegram_chat_id": _TG_CHAT_ID,
+    },
+
+    # ── Recherche 2 : Toyota Corolla Break Hybride Toit Pano ──────────────────
+    {
+        "nom_recherche":    "Toyota Corolla Break Hybride Toit Panoramique",
+        "lbc_keywords":     "toyota corolla break hybride",
+        "lac_make_model":   "TOYOTA%3ACOROLLA",
+        "lac_option":       "TOIT_PANORAMIQUE",
+        "lac_energy":       "HYBRID",
+        "filtre_marque":    "corolla",
+        "filtre_carrosserie": ["touring", "break", "ts", "sw"],
+        "filtre_pano":      ["panoramique", "toit pano", "toit ouvrant panoramique", "skyview"],
+        "csv_file":         "toyota_corolla_break.csv",
+        "log_file":         "toyota_corolla_log.txt",
+        "dept_ref":         "09",
+        "telegram_token":   _TG_TOKEN,
+        "telegram_chat_id": _TG_CHAT_ID,
+    },
+
+    # ── Recherche 3 : exemple commenté — décommentez et adaptez si besoin ─────
+    # {
+    #     "nom_recherche":    "Peugeot 308 SW Diesel Toit Panoramique",
+    #     "lbc_keywords":     "peugeot 308 sw diesel",
+    #     "lac_make_model":   "PEUGEOT%3A308",
+    #     "lac_option":       "TOIT_PANORAMIQUE",
+    #     "lac_energy":       "DIESEL",
+    #     "filtre_marque":    "308",
+    #     "filtre_carrosserie": ["sw", "break"],
+    #     "filtre_pano":      ["panoramique", "toit pano", "skyview"],
+    #     "csv_file":         "peugeot_308_sw.csv",
+    #     "log_file":         "peugeot_308_sw_log.txt",
+    #     "dept_ref":         "09",
+    #     "telegram_token":   _TG_TOKEN,
+    #     "telegram_chat_id": _TG_CHAT_ID,
+    # },
+]
+
+# ══════════════════════════════════════════════════════════════════════════════
+#  FIN CONFIGURATION
+# ══════════════════════════════════════════════════════════════════════════════
+
+# Variable globale active (mise à jour avant chaque recherche)
+CONFIG = SEARCHES[0]
+
+# ─── Variables globales internes (mises à jour par run_one_search) ───────────
+TELEGRAM_BOT_TOKEN = CONFIG["telegram_token"]
+TELEGRAM_CHAT_ID   = CONFIG["telegram_chat_id"]
+
 OUTPUT_DIR = os.path.dirname(os.path.abspath(__file__))
-CSV_FILE   = os.path.join(OUTPUT_DIR, "toyota_auris_panoramique.csv")
-LOG_FILE   = os.path.join(OUTPUT_DIR, "toyota_auris_log.txt")
+CSV_FILE   = os.path.join(OUTPUT_DIR, CONFIG["csv_file"])
+LOG_FILE   = os.path.join(OUTPUT_DIR, CONFIG["log_file"])
 CSV_FIELDS = ["source", "titre", "annee", "prix", "kilometrage", "localisation", "url", "date_trouvee"]
 
 # ─── Utilitaires ──────────────────────────────────────────────────────────────
@@ -128,29 +194,28 @@ def sort_key_annonce(row):
 
 
 def is_auris(titre: str) -> bool:
-    """Vérifie que l'annonce concerne bien une Toyota Auris."""
-    t = titre.lower()
-    return "auris" in t
+    """Vérifie que l'annonce concerne bien le modèle recherché."""
+    return CONFIG["filtre_marque"].lower() in titre.lower()
 
 
 def is_touring_sport(titre: str, body: str = "") -> bool:
     """
-    Vérifie que l'Auris est bien une Touring Sport (break).
-    - "touring" : accepté dans le titre ou la description
-    - "break"   : accepté dans le titre ou la description
-    - "TS"      : accepté uniquement dans le titre (évite les faux positifs dans le body)
-    NB : "sport" seul est exclu — il peut désigner un mode de conduite (Eco/Sport)
+    Vérifie que la carrosserie correspond aux mots-clés définis dans CONFIG["filtre_carrosserie"].
+    "ts" est cherché uniquement dans le titre pour éviter les faux positifs dans le body.
+    Les autres mots sont cherchés dans le titre ET la description.
     """
     titre_low = titre.lower()
     body_low  = body.lower()
 
-    if re.search(r'\btouring\b', titre_low + " " + body_low):
-        return True
-    if re.search(r'\bbreak\b', titre_low + " " + body_low):
-        return True
-    # "TS" uniquement dans le titre pour éviter les faux positifs
-    if re.search(r'\bts\b', titre_low):
-        return True
+    for mot in CONFIG["filtre_carrosserie"]:
+        mot_escaped = re.escape(mot.lower())
+        if mot.lower() == "ts":
+            # "ts" uniquement dans le titre
+            if re.search(r'\b' + mot_escaped + r'\b', titre_low):
+                return True
+        else:
+            if re.search(r'\b' + mot_escaped + r'\b', titre_low + " " + body_low):
+                return True
     return False
 
 
@@ -309,7 +374,7 @@ def notify_nouvelles_annonces(new_results: list, total_connues: int = 0):
     """Formate et envoie les nouvelles annonces sur Telegram, puis envoie le CSV complet."""
     if not new_results:
         msg_rien = (
-            f"✅ <b>Recherche terminée</b> — Toyota Auris Hybride Toit Pano\n"
+            f"✅ <b>Recherche terminée</b> — {CONFIG['nom_recherche']}\n"
             f"📅 {datetime.now().strftime('%d/%m/%Y à %H:%M')}\n\n"
             f"Aucune nouvelle annonce depuis la dernière recherche.\n"
             f"📋 Total annonces connues : {total_connues}"
@@ -320,7 +385,7 @@ def notify_nouvelles_annonces(new_results: list, total_connues: int = 0):
         return
 
     header = (
-        f"🚗 <b>{len(new_results)} nouvelle(s) annonce(s)</b> — Toyota Auris Hybride Toit Pano\n"
+        f"🚗 <b>{len(new_results)} nouvelle(s) annonce(s)</b> — {CONFIG['nom_recherche']}\n"
         f"📅 {datetime.now().strftime('%d/%m/%Y à %H:%M')}\n"
     )
 
@@ -382,7 +447,7 @@ def lbc_search_ads():
     payload = {
         "filters": {
             "category": {"id": "2"},
-            "keywords": {"text": "toyota auris hybride", "type": "all"},
+            "keywords": {"text": CONFIG["lbc_keywords"], "type": "all"},
             "enums": {"fuel": ["3"]},
         },
         "limit": 100,
@@ -415,9 +480,10 @@ def lbc_search_ads():
     except Exception:
         pass
 
+    kw = CONFIG["lbc_keywords"].replace(" ", "+")
     for search_url in [
-        "https://www.leboncoin.fr/recherche?category=2&text=toyota+auris+hybride&fuel=3",
-        "https://www.leboncoin.fr/recherche?category=2&text=auris+hybride+panoramique",
+        f"https://www.leboncoin.fr/recherche?category=2&text={kw}&fuel=3",
+        f"https://www.leboncoin.fr/recherche?category=2&text={kw}+panoramique",
     ]:
         try:
             r = s.get(search_url, timeout=20)
@@ -489,7 +555,7 @@ def has_panoramique(ad, body_text):
     - le titre de l'annonce
     - la description (body)
     """
-    keywords = ["panoramique", "toit pano", "toit ouvrant panoramique", "skyview"]
+    keywords = CONFIG["filtre_pano"]
 
     # Attributs API
     for attr in ad.get("attributes", []):
@@ -603,9 +669,9 @@ async def scrape_lacentrale_async():
 
     search_url = (
         "https://www.lacentrale.fr/listing"
-        "?makesModelsCommercialNames=TOYOTA%3AAURIS"
-        "&options=TOIT_PANORAMIQUE"
-        "&energy=HYBRID"
+        f"?makesModelsCommercialNames={CONFIG['lac_make_model']}"
+        f"&options={CONFIG['lac_option']}"
+        f"&energy={CONFIG['lac_energy']}"
     )
 
     async with async_playwright() as p:
@@ -795,12 +861,24 @@ def scrape_lacentrale():
 #  MAIN
 # ══════════════════════════════════════════════════════════════════════════════
 
-def main():
-    log("╔══════════════════════════════════════════════════╗")
-    log("║  RECHERCHE TOYOTA AURIS HYBRIDE TOIT PANORAMIQUE ║")
-    log("╚══════════════════════════════════════════════════╝")
+def run_one_search(search_config: dict):
+    """Exécute une recherche complète pour une configuration donnée."""
+    global CONFIG, TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID, CSV_FILE, LOG_FILE
 
-    # ── Nettoyage des annonces désactivées ───────────────────────────────────
+    # Activer cette configuration
+    CONFIG             = search_config
+    TELEGRAM_BOT_TOKEN = CONFIG["telegram_token"]
+    TELEGRAM_CHAT_ID   = CONFIG["telegram_chat_id"]
+    CSV_FILE           = os.path.join(OUTPUT_DIR, CONFIG["csv_file"])
+    LOG_FILE           = os.path.join(OUTPUT_DIR, CONFIG["log_file"])
+
+    nom   = CONFIG["nom_recherche"]
+    bord  = "═" * (len(nom) + 4)
+    log(f"╔{bord}╗")
+    log(f"║  {nom}  ║")
+    log(f"╚{bord}╝")
+
+    # ── Nettoyage des annonces désactivées ────────────────────────────────────
     log("Vérification des annonces existantes...")
     nettoyer_annonces_mortes()
 
@@ -829,7 +907,6 @@ def main():
     if new_results:
         save_results(new_results)
 
-    # ── Tri du CSV : proximité Ariège → km → prix ─────────────────────────
     trier_csv()
 
     log("")
@@ -856,10 +933,17 @@ def main():
     log(f"Résultats sauvegardés dans : {CSV_FILE}")
     log("════════════════════════════════════════════")
 
-    # ── Notification Telegram ─────────────────────────────────────────────────
     notify_nouvelles_annonces(new_results, total_connues=len(existing_urls) + len(new_results))
-
     return new_results
+
+
+def main():
+    """Lance toutes les recherches définies dans SEARCHES."""
+    for i, search_config in enumerate(SEARCHES):
+        if i > 0:
+            log("⏳ Pause entre les recherches...")
+            time.sleep(random.uniform(5, 10))
+        run_one_search(search_config)
 
 
 if __name__ == "__main__":
