@@ -69,7 +69,6 @@ SEARCHES = [
         "lac_option":       "TOIT_PANORAMIQUE",
         "lac_energy":       "HYBRID",
         "filtre_marque":    "corolla",
-        "filtre_carrosserie": ["touring", "break", "ts", "sw"],
         "filtre_pano":      ["panoramique", "toit pano", "toit ouvrant panoramique", "skyview"],
         "csv_file":         "toyota_corolla_break.csv",
         "log_file":         "toyota_corolla_log.txt",
