@@ -1,13 +1,15 @@
 ﻿name: Recherche Toyota Auris Touring Sport
 
 on:
-  schedule:
-    - cron: '0 7 * * *'
-  workflow_dispatch:
+  workflow_dispatch:   # déclenché manuellement ou par le script de démarrage Windows
+
+concurrency:
+  group: recherche-quotidienne
+  cancel-in-progress: false  # ne pas annuler un run déjà en cours
 
 jobs:
   recherche:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted     # exécuté sur votre PC avec votre IP résidentielle
     permissions:
       contents: write
 
