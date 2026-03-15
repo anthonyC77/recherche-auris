@@ -1807,3 +1807,32 @@ PermissionError: [Errno 13] Permission denied: 'C:\\Users\\antho\\RechercheVoitu
 [2026-03-15 19:33:54] ════════════════════════════════════════════
 [2026-03-15 19:33:55]   ✅ Message Telegram envoyé
 [2026-03-15 19:33:56]   ✅ CSV envoyé sur Telegram
+[2026-03-15 20:05:14] ╔═══════════════════════════════════════════════════════╗
+[2026-03-15 20:05:14] ║  Toyota Auris Touring Sport Hybride Toit Panoramique  ║
+[2026-03-15 20:05:14] ╚═══════════════════════════════════════════════════════╝
+[2026-03-15 20:05:14] Vérification des annonces existantes...
+[2026-03-15 20:05:14]   Vérification de 0 annonces en cours...
+[2026-03-15 20:05:14]   Nettoyage terminé : toutes les 0 annonces sont encore actives
+[2026-03-15 20:05:14] Annonces actives connues : 0
+[2026-03-15 20:05:14] === Leboncoin.fr — démarrage ===
+[2026-03-15 20:05:15]   API LBC mobile HTTP 403
+[2026-03-15 20:05:15]   Fallback : scraping page de recherche LBC...
+[2026-03-15 20:05:21]   LeBonCoin : impossible de récupérer les annonces
+[2026-03-15 20:05:21] Pause entre les deux sites...
+[2026-03-15 20:05:24] === La Centrale.fr — démarrage (Playwright/Chromium) ===
+[2026-03-15 20:05:25]   Chargement accueil La Centrale...
+[2026-03-15 20:05:28]   Chargement résultats de recherche...
+[2026-03-15 20:05:31]   0 annonces trouvées
+[2026-03-15 20:05:31] === La Centrale : 0 annonce(s) ===
+[2026-03-15 20:05:31]   CSV trié (0 annonces) : proximité Ariège → km → prix
+[2026-03-15 20:05:31] 
+[2026-03-15 20:05:31] ══════════════════ RÉSUMÉ ══════════════════
+[2026-03-15 20:05:31] Total trouvées : 0
+[2026-03-15 20:05:31] Nouvelles      : 0
+[2026-03-15 20:05:31] Déjà connues   : 0
+[2026-03-15 20:05:31] Aucune nouvelle annonce depuis la dernière recherche.
+[2026-03-15 20:05:31] Résultats sauvegardés dans : /home/runner/work/recherche-auris/recherche-auris/toyota_auris_panoramique.csv
+[2026-03-15 20:05:31] ════════════════════════════════════════════
+[2026-03-15 20:05:32]   ✅ Message Telegram envoyé
+[2026-03-15 20:05:33]   ✅ CSV envoyé sur Telegram
+[2026-03-15 20:05:33] ⏳ Pause entre les recherches...
