@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+*.bat
+*_old
+enrichir_csv.py
+csv_helper.py
+toyota_auris_panoramique-*.csv

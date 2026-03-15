@@ -1,0 +1,40 @@
+name: Recherche Toyota Auris Touring Sport
+
+on:
+  schedule:
+    # Tous les jours à 9h00 heure de Paris (= 7h UTC)
+    - cron: '0 7 * * *'
+  workflow_dispatch:   # Permet aussi de lancer manuellement depuis GitHub
+
+jobs:
+  recherche:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Récupérer le dépôt
+        uses: actions/checkout@v4
+
+      - name: Installer Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Installer les dépendances
+        run: |
+          pip install requests beautifulsoup4 lxml playwright
+          playwright install chromium
+          playwright install-deps chromium
+
+      - name: Lancer la recherche
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python recherche_auris.py
+
+      - name: Sauvegarder le CSV mis à jour dans le dépôt
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add toyota_auris_panoramique.csv toyota_auris_log.txt
+          git diff --cached --quiet || git commit -m "🚗 Mise à jour annonces $(date +'%Y-%m-%d')"
+          git push
