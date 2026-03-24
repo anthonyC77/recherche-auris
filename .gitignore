@@ -2,7 +2,7 @@ __pycache__/
 *.py[cod]
 *.egg-info/
 .env
-*.bat
+# *.bat  ← décommenté dans lancementLocal pour versionner le lanceur local
 *_old
 enrichir_csv.py
 csv_helper.py
