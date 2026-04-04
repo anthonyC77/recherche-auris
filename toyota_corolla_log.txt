@@ -657,3 +657,120 @@
 [2026-03-29 13:18:40]   ✅ Message Telegram envoyé
 [2026-03-29 13:18:41]   ✅ Message Telegram envoyé
 [2026-03-29 13:18:43]   ✅ CSV envoyé sur Telegram
+[2026-04-03 15:07:39] ╔═════════════════════════════════════════════════╗
+[2026-04-03 15:07:39] ║  Toyota Corolla Break Hybride Toit Panoramique  ║
+[2026-04-03 15:07:39] ╚═════════════════════════════════════════════════╝
+[2026-04-03 15:07:39] Vérification des annonces existantes...
+[2026-04-03 15:07:39]   Vérification de 8 annonces en cours...
+[2026-04-03 15:07:39]   🗑️  Supprimée (désactivée) : TOYOTA COROLLA Touring Sports Hybride Collection 180h - BV CVT BREAK
+[2026-04-03 15:07:39]   🗑️  Supprimée (désactivée) : Toyota Corolla XII TOURING SPORTS HYBRIDE MY21 184H GR Sport
+[2026-04-03 15:07:40]   🗑️  Supprimée (désactivée) : Toyota Corolla TS 2.0L 184H GR SPORT + PACK TECHNO + TOIT PANO
+[2026-04-03 15:07:41]   🗑️  Supprimée (désactivée) : TOYOTA Corolla Touring Spt 2.0 Hybrid 184ch Collection - 2020 - 44 500
+[2026-04-03 15:07:41]   🗑️  Supprimée (désactivée) : TOYOTA COROLLA TOURING SPORTS HYBRIDE MY22 184 Cv COLLECTION - TOIT OU
+[2026-04-03 15:07:42]   🗑️  Supprimée (désactivée) : TOYOTA COROLLA TOURING SPORTS HYBRIDE MY21 184h GR Sport carplay toit 
+[2026-04-03 15:07:42]   🗑️  Supprimée (désactivée) : TOYOTA COROLLA TOURING SPORTS HYBRIDE PRO NOUVE Hybride 140 ch Dynamic
+[2026-04-03 15:07:43]   🗑️  Supprimée (désactivée) : TOYOTA COROLLA TOURING SPORTS HYBRIDE MY22 184cv Design / 1er Main / E
+[2026-04-03 15:07:43]   Nettoyage terminé : 8 annonce(s) supprimée(s), 0 restantes
+[2026-04-03 15:07:44] Annonces actives connues : 0
+[2026-04-03 15:07:44] === Leboncoin.fr — démarrage ===
+[2026-04-03 15:07:44]   API LBC mobile HTTP 403
+[2026-04-03 15:07:44]   Fallback : scraping page de recherche LBC...
+[2026-04-03 15:07:49]   Scraping LBC HTML : 9 annonces
+[2026-04-03 15:07:49]   Analyse de 9 annonces...
+[2026-04-03 15:07:49]   (pas une Auris) BYD Seal 6 Touring 1.5l DM-i 156 kW PHEV Comfort + TOIT OUVRANT + CAMÉ
+[2026-04-03 15:07:52]   ✔ TROUVÉ : Toyota Corolla XII TOURING SPORTS HYBRIDE MY21 184H GR Sport | 2022 | 24 900 € | 74 980 km | Mérignac (33)
+[2026-04-03 15:07:54]   ✔ TROUVÉ : TOYOTA COROLLA TOURING SPORTS HYBRIDE MY22 184 Cv COLLECTION - TOIT OUVRANT PANO / CAMERA / CARPLAY / JBL / TVA DEDUCTIBLE | 2022 | 27 990 € | 67 511 km | Châtillon (92)
+[2026-04-03 15:07:57]   ✔ TROUVÉ : Toyota Corolla TOURING SPORTS HYBRIDE 184H 8CV COLLECTION | 2022 | 27 990 € | 37 900 km | Ormoy (91)
+[2026-04-03 15:07:59]   ✔ TROUVÉ : TOYOTA COROLLA Touring Sports Hybride Collection 180h - BV CVT BREAK | 2022 | 25 490 € | 53 500 km | Cestas (33)
+[2026-04-03 15:08:01]   ✔ TROUVÉ : TOYOTA COROLLA TOURING SPORTS HYBRIDE MY21 184h GR Sport carplay toit panoramique caméra très bon état garantie toyota 12 mois à 5 ans | 2021 | 26 980 € | 113 000 km | Le Raincy (93)
+[2026-04-03 15:08:01]   (pas une Auris) BYD Seal 6 Touring 1.5l DM-i 156 kW PHEV Comfort + TOIT OUVRANT + CAMÉ
+[2026-04-03 15:08:01]   (pas une Auris) Mercedes-benz CLA Shooting Brake 250 e 160+102ch AMG Line 8G-DCT
+[2026-04-03 15:08:01]   (pas une Auris) Mercedes-benz Classe A 180 136ch Style Line 7G-DCT
+[2026-04-03 15:08:01] === Leboncoin : 5 annonce(s) avec toit panoramique ===
+[2026-04-03 15:08:01] Pause entre les deux sites...
+[2026-04-03 15:08:06] La Centrale — erreur critique : No module named 'playwright'
+[2026-04-03 15:08:06]   CSV trié (5 annonces) : proximité Ariège → km → prix
+[2026-04-03 15:08:06] 
+[2026-04-03 15:08:06] ══════════════════ RÉSUMÉ ══════════════════
+[2026-04-03 15:08:06] Total trouvées : 5
+[2026-04-03 15:08:06] Nouvelles      : 5
+[2026-04-03 15:08:06] Déjà connues   : 0
+[2026-04-03 15:08:06] 
+[2026-04-03 15:08:06] 🆕 NOUVELLES ANNONCES :
+[2026-04-03 15:08:06]   [leboncoin.fr]
+[2026-04-03 15:08:06]     Titre        : Toyota Corolla XII TOURING SPORTS HYBRIDE MY21 184H GR Sport
+[2026-04-03 15:08:06]     Année        : 2022
+[2026-04-03 15:08:06]     Prix         : 24 900 €
+[2026-04-03 15:08:06]     Kilométrage  : 74 980 km
+[2026-04-03 15:08:06]     Localisation : Mérignac (33)
+[2026-04-03 15:08:06]     URL          : https://www.leboncoin.fr/ad/voitures/3135218099
+[2026-04-03 15:08:06] 
+[2026-04-03 15:08:06]   [leboncoin.fr]
+[2026-04-03 15:08:06]     Titre        : TOYOTA COROLLA TOURING SPORTS HYBRIDE MY22 184 Cv COLLECTION - TOIT OUVRANT PANO / CAMERA / CARPLAY / JBL / TVA DEDUCTIBLE
+[2026-04-03 15:08:06]     Année        : 2022
+[2026-04-03 15:08:06]     Prix         : 27 990 €
+[2026-04-03 15:08:06]     Kilométrage  : 67 511 km
+[2026-04-03 15:08:06]     Localisation : Châtillon (92)
+[2026-04-03 15:08:06]     URL          : https://www.leboncoin.fr/ad/voitures/3084586618
+[2026-04-03 15:08:06] 
+[2026-04-03 15:08:06]   [leboncoin.fr]
+[2026-04-03 15:08:06]     Titre        : Toyota Corolla TOURING SPORTS HYBRIDE 184H 8CV COLLECTION
+[2026-04-03 15:08:06]     Année        : 2022
+[2026-04-03 15:08:06]     Prix         : 27 990 €
+[2026-04-03 15:08:06]     Kilométrage  : 37 900 km
+[2026-04-03 15:08:06]     Localisation : Ormoy (91)
+[2026-04-03 15:08:06]     URL          : https://www.leboncoin.fr/ad/voitures/3172989966
+[2026-04-03 15:08:06] 
+[2026-04-03 15:08:06]   [leboncoin.fr]
+[2026-04-03 15:08:06]     Titre        : TOYOTA COROLLA Touring Sports Hybride Collection 180h - BV CVT BREAK
+[2026-04-03 15:08:06]     Année        : 2022
+[2026-04-03 15:08:06]     Prix         : 25 490 €
+[2026-04-03 15:08:06]     Kilométrage  : 53 500 km
+[2026-04-03 15:08:06]     Localisation : Cestas (33)
+[2026-04-03 15:08:06]     URL          : https://www.leboncoin.fr/ad/voitures/3169184110
+[2026-04-03 15:08:06] 
+[2026-04-03 15:08:06]   [leboncoin.fr]
+[2026-04-03 15:08:06]     Titre        : TOYOTA COROLLA TOURING SPORTS HYBRIDE MY21 184h GR Sport carplay toit panoramique caméra très bon état garantie toyota 12 mois à 5 ans
+[2026-04-03 15:08:06]     Année        : 2021
+[2026-04-03 15:08:06]     Prix         : 26 980 €
+[2026-04-03 15:08:06]     Kilométrage  : 113 000 km
+[2026-04-03 15:08:06]     Localisation : Le Raincy (93)
+[2026-04-03 15:08:06]     URL          : https://www.leboncoin.fr/ad/voitures/3166268472
+[2026-04-03 15:08:06] 
+[2026-04-03 15:08:06] Résultats sauvegardés dans : C:\Users\antho\RechercheVoiture\toyota_corolla_break.csv
+[2026-04-03 15:08:06] ════════════════════════════════════════════
+[2026-04-03 15:08:06]   ✅ Message Telegram envoyé
+[2026-04-03 15:08:07]   ✅ Message Telegram envoyé
+[2026-04-03 15:08:09]   ✅ CSV envoyé sur Telegram
+[2026-04-04 07:38:52] ╔═════════════════════════════════════════════════╗
+[2026-04-04 07:38:52] ║  Toyota Corolla Break Hybride Toit Panoramique  ║
+[2026-04-04 07:38:52] ╚═════════════════════════════════════════════════╝
+[2026-04-04 07:38:52] Vérification des annonces existantes...
+[2026-04-04 07:38:52]   Vérification de 5 annonces en cours...
+[2026-04-04 07:38:54]   Nettoyage terminé : toutes les 5 annonces sont encore actives
+[2026-04-04 07:38:54] Annonces actives connues : 5
+[2026-04-04 07:38:54] === Leboncoin.fr — démarrage ===
+[2026-04-04 07:38:54]   API LBC mobile erreur : HTTPSConnectionPool(host='api.leboncoin.fr', port=443): Max retries exceeded with url: /api/adfinder/v1/search (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000024D38DB9010>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[2026-04-04 07:38:54]   Fallback : scraping page de recherche LBC...
+[2026-04-04 07:38:54]   Scraping LBC erreur : HTTPSConnectionPool(host='www.leboncoin.fr', port=443): Max retries exceeded with url: /recherche?category=2&text=toyota+corolla+break+hybride&fuel=3 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000024D38DB9BD0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[2026-04-04 07:38:57]   Scraping LBC erreur : HTTPSConnectionPool(host='www.leboncoin.fr', port=443): Max retries exceeded with url: /recherche?category=2&text=toyota+corolla+break+hybride+panoramique (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000024D38DB9E50>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[2026-04-04 07:39:00]   LeBonCoin : impossible de récupérer les annonces
+[2026-04-04 07:39:00] Pause entre les deux sites...
+[2026-04-04 07:39:05] La Centrale — erreur critique : No module named 'playwright'
+[2026-04-04 07:39:05]   CSV trié (5 annonces) : proximité Ariège → km → prix
+[2026-04-04 07:39:05] 
+[2026-04-04 07:39:05] ══════════════════ RÉSUMÉ ══════════════════
+[2026-04-04 07:39:05] Total trouvées : 0
+[2026-04-04 07:39:05] Nouvelles      : 0
+[2026-04-04 07:39:05] Déjà connues   : 0
+[2026-04-04 07:39:05] Aucune nouvelle annonce depuis la dernière recherche.
+[2026-04-04 07:39:05] Résultats sauvegardés dans : C:\Users\antho\RechercheVoiture\toyota_corolla_break.csv
+[2026-04-04 07:39:05] ════════════════════════════════════════════
+[2026-04-04 07:39:05]   ⚠️  Telegram tentative 1/3 échouée : HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8743026490:AAGXbfuTUJgoOUBbIg3V-kBcxegiRp9-Ra0/sendMessage (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000024D38DB9ED0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[2026-04-04 07:39:08]   ⚠️  Telegram tentative 2/3 échouée : HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8743026490:AAGXbfuTUJgoOUBbIg3V-kBcxegiRp9-Ra0/sendMessage (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000024D38DB8AD0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[2026-04-04 07:39:11]   ⚠️  Telegram tentative 3/3 échouée : HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8743026490:AAGXbfuTUJgoOUBbIg3V-kBcxegiRp9-Ra0/sendMessage (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000024D38DB9A10>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[2026-04-04 07:39:11]   ❌ Telegram : impossible d'envoyer le message après 3 tentatives.
+[2026-04-04 07:39:12]   ⚠️  Telegram CSV tentative 1/3 échouée : HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8743026490:AAGXbfuTUJgoOUBbIg3V-kBcxegiRp9-Ra0/sendDocument (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000024D38DB9010>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[2026-04-04 07:39:15]   ⚠️  Telegram CSV tentative 2/3 échouée : HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8743026490:AAGXbfuTUJgoOUBbIg3V-kBcxegiRp9-Ra0/sendDocument (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000024D38DB92D0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[2026-04-04 07:39:18]   ⚠️  Telegram CSV tentative 3/3 échouée : HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8743026490:AAGXbfuTUJgoOUBbIg3V-kBcxegiRp9-Ra0/sendDocument (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000024D38DB9310>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[2026-04-04 07:39:18]   ❌ Telegram CSV : impossible d'envoyer après 3 tentatives.
