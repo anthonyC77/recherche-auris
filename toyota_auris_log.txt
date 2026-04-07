@@ -2767,3 +2767,42 @@ error: please commit or stash them.
 [2026-04-04 07:38:46]   ❌ Telegram CSV : impossible d'envoyer après 3 tentatives.
 [2026-04-04 07:38:46] ⏳ Pause entre les recherches...
 [04/04/2026  7:39:18,74] Recherche terminee, push en cours... 
+fatal: unable to access 'https://github.com/anthonyC77/recherche-auris.git/': Could not resolve host: github.com
+[04/04/2026  7:39:19,01] Push termine. 
+[07/04/2026  6:12:32,11] Demarrage lancement local 
+error: cannot pull with rebase: You have unstaged changes.
+error: please commit or stash them.
+[2026-04-07 06:12:34] ╔═══════════════════════════════════════════════════════╗
+[2026-04-07 06:12:34] ║  Toyota Auris Touring Sport Hybride Toit Panoramique  ║
+[2026-04-07 06:12:34] ╚═══════════════════════════════════════════════════════╝
+[2026-04-07 06:12:34] Vérification des annonces existantes...
+[2026-04-07 06:12:34]   Vérification de 9 annonces en cours...
+[2026-04-07 06:12:38]   Nettoyage terminé : toutes les 9 annonces sont encore actives
+[2026-04-07 06:12:38] Annonces actives connues : 9
+[2026-04-07 06:12:38] === Leboncoin.fr — démarrage ===
+[2026-04-07 06:12:38]   API LBC mobile erreur : HTTPSConnectionPool(host='api.leboncoin.fr', port=443): Max retries exceeded with url: /api/adfinder/v1/search (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000250322AC850>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[2026-04-07 06:12:38]   Fallback : scraping page de recherche LBC...
+[2026-04-07 06:12:38]   Scraping LBC erreur : HTTPSConnectionPool(host='www.leboncoin.fr', port=443): Max retries exceeded with url: /recherche?category=2&text=toyota+auris+hybride&fuel=3 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000025032202E10>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[2026-04-07 06:12:40]   Scraping LBC erreur : HTTPSConnectionPool(host='www.leboncoin.fr', port=443): Max retries exceeded with url: /recherche?category=2&text=toyota+auris+hybride+panoramique (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000250322B8890>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[2026-04-07 06:12:44]   LeBonCoin : impossible de récupérer les annonces
+[2026-04-07 06:12:44] Pause entre les deux sites...
+[2026-04-07 06:12:49] La Centrale — erreur critique : No module named 'playwright'
+[2026-04-07 06:12:49]   CSV trié (9 annonces) : proximité Ariège → km → prix
+[2026-04-07 06:12:49] 
+[2026-04-07 06:12:49] ══════════════════ RÉSUMÉ ══════════════════
+[2026-04-07 06:12:49] Total trouvées : 0
+[2026-04-07 06:12:49] Nouvelles      : 0
+[2026-04-07 06:12:49] Déjà connues   : 0
+[2026-04-07 06:12:49] Aucune nouvelle annonce depuis la dernière recherche.
+[2026-04-07 06:12:49] Résultats sauvegardés dans : C:\Users\antho\RechercheVoiture\toyota_auris_panoramique.csv
+[2026-04-07 06:12:49] ════════════════════════════════════════════
+[2026-04-07 06:12:49]   ⚠️  Telegram tentative 1/3 échouée : HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8743026490:AAGXbfuTUJgoOUBbIg3V-kBcxegiRp9-Ra0/sendMessage (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000250322B8550>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[2026-04-07 06:12:52]   ⚠️  Telegram tentative 2/3 échouée : HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8743026490:AAGXbfuTUJgoOUBbIg3V-kBcxegiRp9-Ra0/sendMessage (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000250322B8E50>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[2026-04-07 06:12:55]   ⚠️  Telegram tentative 3/3 échouée : HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8743026490:AAGXbfuTUJgoOUBbIg3V-kBcxegiRp9-Ra0/sendMessage (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000250322B87D0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[2026-04-07 06:12:55]   ❌ Telegram : impossible d'envoyer le message après 3 tentatives.
+[2026-04-07 06:12:56]   ⚠️  Telegram CSV tentative 1/3 échouée : HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8743026490:AAGXbfuTUJgoOUBbIg3V-kBcxegiRp9-Ra0/sendDocument (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000250322B8B50>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[2026-04-07 06:12:59]   ⚠️  Telegram CSV tentative 2/3 échouée : HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8743026490:AAGXbfuTUJgoOUBbIg3V-kBcxegiRp9-Ra0/sendDocument (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000250322B9050>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[2026-04-07 06:13:02]   ⚠️  Telegram CSV tentative 3/3 échouée : HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8743026490:AAGXbfuTUJgoOUBbIg3V-kBcxegiRp9-Ra0/sendDocument (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000250322B8910>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[2026-04-07 06:13:02]   ❌ Telegram CSV : impossible d'envoyer après 3 tentatives.
+[2026-04-07 06:13:02] ⏳ Pause entre les recherches...
+[07/04/2026  6:13:35,45] Recherche terminee, push en cours... 

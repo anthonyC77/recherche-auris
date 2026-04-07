@@ -774,3 +774,35 @@
 [2026-04-04 07:39:15]   ⚠️  Telegram CSV tentative 2/3 échouée : HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8743026490:AAGXbfuTUJgoOUBbIg3V-kBcxegiRp9-Ra0/sendDocument (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000024D38DB92D0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
 [2026-04-04 07:39:18]   ⚠️  Telegram CSV tentative 3/3 échouée : HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8743026490:AAGXbfuTUJgoOUBbIg3V-kBcxegiRp9-Ra0/sendDocument (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000024D38DB9310>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
 [2026-04-04 07:39:18]   ❌ Telegram CSV : impossible d'envoyer après 3 tentatives.
+[2026-04-07 06:13:11] ╔═════════════════════════════════════════════════╗
+[2026-04-07 06:13:11] ║  Toyota Corolla Break Hybride Toit Panoramique  ║
+[2026-04-07 06:13:11] ╚═════════════════════════════════════════════════╝
+[2026-04-07 06:13:11] Vérification des annonces existantes...
+[2026-04-07 06:13:11]   Vérification de 5 annonces en cours...
+[2026-04-07 06:13:13]   Nettoyage terminé : toutes les 5 annonces sont encore actives
+[2026-04-07 06:13:13] Annonces actives connues : 5
+[2026-04-07 06:13:13] === Leboncoin.fr — démarrage ===
+[2026-04-07 06:13:13]   API LBC mobile erreur : HTTPSConnectionPool(host='api.leboncoin.fr', port=443): Max retries exceeded with url: /api/adfinder/v1/search (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000250322B9250>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[2026-04-07 06:13:13]   Fallback : scraping page de recherche LBC...
+[2026-04-07 06:13:13]   Scraping LBC erreur : HTTPSConnectionPool(host='www.leboncoin.fr', port=443): Max retries exceeded with url: /recherche?category=2&text=toyota+corolla+break+hybride&fuel=3 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000250322B8610>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[2026-04-07 06:13:16]   Scraping LBC erreur : HTTPSConnectionPool(host='www.leboncoin.fr', port=443): Max retries exceeded with url: /recherche?category=2&text=toyota+corolla+break+hybride+panoramique (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000250322BA090>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[2026-04-07 06:13:19]   LeBonCoin : impossible de récupérer les annonces
+[2026-04-07 06:13:19] Pause entre les deux sites...
+[2026-04-07 06:13:22] La Centrale — erreur critique : No module named 'playwright'
+[2026-04-07 06:13:22]   CSV trié (5 annonces) : proximité Ariège → km → prix
+[2026-04-07 06:13:22] 
+[2026-04-07 06:13:22] ══════════════════ RÉSUMÉ ══════════════════
+[2026-04-07 06:13:22] Total trouvées : 0
+[2026-04-07 06:13:22] Nouvelles      : 0
+[2026-04-07 06:13:22] Déjà connues   : 0
+[2026-04-07 06:13:22] Aucune nouvelle annonce depuis la dernière recherche.
+[2026-04-07 06:13:22] Résultats sauvegardés dans : C:\Users\antho\RechercheVoiture\toyota_corolla_break.csv
+[2026-04-07 06:13:22] ════════════════════════════════════════════
+[2026-04-07 06:13:22]   ⚠️  Telegram tentative 1/3 échouée : HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8743026490:AAGXbfuTUJgoOUBbIg3V-kBcxegiRp9-Ra0/sendMessage (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000250322BA110>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[2026-04-07 06:13:25]   ⚠️  Telegram tentative 2/3 échouée : HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8743026490:AAGXbfuTUJgoOUBbIg3V-kBcxegiRp9-Ra0/sendMessage (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000250322BA210>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[2026-04-07 06:13:28]   ⚠️  Telegram tentative 3/3 échouée : HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8743026490:AAGXbfuTUJgoOUBbIg3V-kBcxegiRp9-Ra0/sendMessage (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000250322B8810>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[2026-04-07 06:13:28]   ❌ Telegram : impossible d'envoyer le message après 3 tentatives.
+[2026-04-07 06:13:29]   ⚠️  Telegram CSV tentative 1/3 échouée : HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8743026490:AAGXbfuTUJgoOUBbIg3V-kBcxegiRp9-Ra0/sendDocument (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000250322B8D10>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[2026-04-07 06:13:32]   ⚠️  Telegram CSV tentative 2/3 échouée : HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8743026490:AAGXbfuTUJgoOUBbIg3V-kBcxegiRp9-Ra0/sendDocument (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000250322B9110>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[2026-04-07 06:13:35]   ⚠️  Telegram CSV tentative 3/3 échouée : HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8743026490:AAGXbfuTUJgoOUBbIg3V-kBcxegiRp9-Ra0/sendDocument (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000250322B9E10>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[2026-04-07 06:13:35]   ❌ Telegram CSV : impossible d'envoyer après 3 tentatives.
