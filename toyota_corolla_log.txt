@@ -1725,3 +1725,105 @@
 [2026-04-23 10:21:24]   ⚠️  Telegram tentative 1/3 échouée : ('Connection aborted.', ConnectionResetError(10054, 'Une connexion existante a dû être fermée par l’hôte distant', None, 10054, None))
 [2026-04-23 10:21:27]   ✅ Message Telegram envoyé
 [2026-04-23 10:21:29]   ✅ CSV envoyé sur Telegram
+[2026-04-23 16:39:22] ╔═════════════════════════════════════════════════╗
+[2026-04-23 16:39:22] ║  Toyota Corolla Break Hybride Toit Panoramique  ║
+[2026-04-23 16:39:22] ╚═════════════════════════════════════════════════╝
+[2026-04-23 16:39:22] Vérification des annonces existantes...
+[2026-04-23 16:39:22]   Vérification de 7 annonces en cours...
+[2026-04-23 16:39:22]   🗑️  Supprimée (désactivée) : Toyota Corolla TS Collection
+[2026-04-23 16:39:23]   🗑️  Supprimée (désactivée) : Toyota Corolla TOURING SPORTS HYBRIDE 184H 8CV COLLECTION GARANTIE 12 
+[2026-04-23 16:39:23]   🗑️  Supprimée (désactivée) : TOYOTA COROLLA TOURING SPORTS HYBRIDE MY22 184 Cv COLLECTION - TOIT OU
+[2026-04-23 16:39:24]   🗑️  Supprimée (désactivée) : Toyota Corolla 1.8 140H Hybrid Design / TOIT OUVRANT CAMERA DE RECUL
+[2026-04-23 16:39:24]   🗑️  Supprimée (désactivée) : Toyota corolla touring sports HYBRIDE 196ch Collection
+[2026-04-23 16:39:25]   🗑️  Supprimée (désactivée) : Toyota Corolla Touring Sports 184h Collection – 2021 – 53 421 km
+[2026-04-23 16:39:26]   🗑️  Supprimée (désactivée) : Toyota Corolla Touring Sports Hybride 184h Collection
+[2026-04-23 16:39:26]   Nettoyage terminé : 7 annonce(s) supprimée(s), 0 restantes
+[2026-04-23 16:39:26] Annonces actives connues : 0
+[2026-04-23 16:39:26] === Leboncoin.fr — démarrage ===
+[2026-04-23 16:39:26]   API LBC mobile HTTP 403
+[2026-04-23 16:39:26]   Fallback : scraping page de recherche LBC...
+[2026-04-23 16:39:31]   Scraping LBC HTML : 11 annonces
+[2026-04-23 16:39:31]   Analyse de 11 annonces...
+[2026-04-23 16:39:33]   ✔ TROUVÉ : Toyota Corolla 1.8 140H Hybrid Design / TOIT OUVRANT CAMERA DE RECUL | 2023 | 19 990 € | 196 000 km | Villeneuve-Saint-Georges (94)
+[2026-04-23 16:39:33]   (pas une Auris) BYD Seal 6 Touring 1.5l DM-i 156 kW PHEV Comfort + TOIT OUVRANT + CAMÉ
+[2026-04-23 16:39:35]   ✔ TROUVÉ : Toyota Corolla TS Collection | 2021 | 24 000 € | 60 000 km | Courthézon (84)
+[2026-04-23 16:39:37]   ✔ TROUVÉ : Toyota Corolla Touring Sports Hybride 184h Collection | 2023 | 28 590 € | 64 529 km | La Motte-Servolex (73)
+[2026-04-23 16:39:39]   ✔ TROUVÉ : Toyota Corolla Touring Sports 184h Collection – 2021 – 53 421 km | 2021 | 23 900 € | 53 421 km | Ussel (19)
+[2026-04-23 16:39:42]   ✔ TROUVÉ : TOYOTA COROLLA TOURING SPORTS HYBRIDE MY22 184 Cv COLLECTION - TOIT OUVRANT PANO / CAMERA / CARPLAY / JBL / TVA DEDUCTIBLE | 2022 | 27 990 € | 67 511 km | Châtillon (92)
+[2026-04-23 16:39:44]   ✔ TROUVÉ : Toyota Corolla TOURING SPORTS HYBRIDE 184H 8CV COLLECTION GARANTIE 12 M | 2022 | 27 990 € | 37 900 km | Ormoy (91)
+[2026-04-23 16:39:46]   ✔ TROUVÉ : Toyota corolla touring sports HYBRIDE 196ch Collection | 2025 | 34 990 € | 24 155 km | Saint-Maximin (60)
+[2026-04-23 16:39:46]   (pas une Auris) Mercedes-benz CLA Shooting Brake 250 e 160+102ch AMG Line 8G-DCT
+[2026-04-23 16:39:46]   (pas une Auris) Skoda Octavia Combi 1.4 TSI PHEV iV 204ch Style DSG6e
+[2026-04-23 16:39:46]   (pas une Auris) Audi A3 Sportback 40 TFSI e 204ch Business line S tronic 6
+[2026-04-23 16:39:46] === Leboncoin : 7 annonce(s) avec toit panoramique ===
+[2026-04-23 16:39:46] Pause entre les deux sites...
+[2026-04-23 16:39:51] La Centrale — erreur critique : No module named 'playwright'
+[2026-04-23 16:39:51]   CSV trié (7 annonces) : proximité Ariège → km → prix
+[2026-04-23 16:39:51] 
+[2026-04-23 16:39:51] ══════════════════ RÉSUMÉ ══════════════════
+[2026-04-23 16:39:51] Total trouvées : 7
+[2026-04-23 16:39:51] Nouvelles      : 7
+[2026-04-23 16:39:51] Déjà connues   : 0
+[2026-04-23 16:39:51] 
+[2026-04-23 16:39:51] 🆕 NOUVELLES ANNONCES :
+[2026-04-23 16:39:51]   [leboncoin.fr]
+[2026-04-23 16:39:51]     Titre        : Toyota Corolla 1.8 140H Hybrid Design / TOIT OUVRANT CAMERA DE RECUL
+[2026-04-23 16:39:51]     Année        : 2023
+[2026-04-23 16:39:51]     Prix         : 19 990 €
+[2026-04-23 16:39:51]     Kilométrage  : 196 000 km
+[2026-04-23 16:39:51]     Localisation : Villeneuve-Saint-Georges (94)
+[2026-04-23 16:39:51]     URL          : https://www.leboncoin.fr/ad/voitures/3180673216
+[2026-04-23 16:39:51] 
+[2026-04-23 16:39:51]   [leboncoin.fr]
+[2026-04-23 16:39:51]     Titre        : Toyota Corolla TS Collection
+[2026-04-23 16:39:51]     Année        : 2021
+[2026-04-23 16:39:51]     Prix         : 24 000 €
+[2026-04-23 16:39:51]     Kilométrage  : 60 000 km
+[2026-04-23 16:39:51]     Localisation : Courthézon (84)
+[2026-04-23 16:39:51]     URL          : https://www.leboncoin.fr/ad/voitures/3180058291
+[2026-04-23 16:39:51] 
+[2026-04-23 16:39:51]   [leboncoin.fr]
+[2026-04-23 16:39:51]     Titre        : Toyota Corolla Touring Sports Hybride 184h Collection
+[2026-04-23 16:39:51]     Année        : 2023
+[2026-04-23 16:39:51]     Prix         : 28 590 €
+[2026-04-23 16:39:51]     Kilométrage  : 64 529 km
+[2026-04-23 16:39:51]     Localisation : La Motte-Servolex (73)
+[2026-04-23 16:39:51]     URL          : https://www.leboncoin.fr/ad/voitures/3176273721
+[2026-04-23 16:39:51] 
+[2026-04-23 16:39:51]   [leboncoin.fr]
+[2026-04-23 16:39:51]     Titre        : Toyota Corolla Touring Sports 184h Collection – 2021 – 53 421 km
+[2026-04-23 16:39:51]     Année        : 2021
+[2026-04-23 16:39:51]     Prix         : 23 900 €
+[2026-04-23 16:39:51]     Kilométrage  : 53 421 km
+[2026-04-23 16:39:51]     Localisation : Ussel (19)
+[2026-04-23 16:39:51]     URL          : https://www.leboncoin.fr/ad/voitures/3175664162
+[2026-04-23 16:39:51] 
+[2026-04-23 16:39:51]   [leboncoin.fr]
+[2026-04-23 16:39:51]     Titre        : TOYOTA COROLLA TOURING SPORTS HYBRIDE MY22 184 Cv COLLECTION - TOIT OUVRANT PANO / CAMERA / CARPLAY / JBL / TVA DEDUCTIBLE
+[2026-04-23 16:39:51]     Année        : 2022
+[2026-04-23 16:39:51]     Prix         : 27 990 €
+[2026-04-23 16:39:51]     Kilométrage  : 67 511 km
+[2026-04-23 16:39:51]     Localisation : Châtillon (92)
+[2026-04-23 16:39:51]     URL          : https://www.leboncoin.fr/ad/voitures/3084586618
+[2026-04-23 16:39:51] 
+[2026-04-23 16:39:51]   [leboncoin.fr]
+[2026-04-23 16:39:51]     Titre        : Toyota Corolla TOURING SPORTS HYBRIDE 184H 8CV COLLECTION GARANTIE 12 M
+[2026-04-23 16:39:51]     Année        : 2022
+[2026-04-23 16:39:51]     Prix         : 27 990 €
+[2026-04-23 16:39:51]     Kilométrage  : 37 900 km
+[2026-04-23 16:39:51]     Localisation : Ormoy (91)
+[2026-04-23 16:39:51]     URL          : https://www.leboncoin.fr/ad/voitures/3184709955
+[2026-04-23 16:39:51] 
+[2026-04-23 16:39:51]   [leboncoin.fr]
+[2026-04-23 16:39:51]     Titre        : Toyota corolla touring sports HYBRIDE 196ch Collection
+[2026-04-23 16:39:51]     Année        : 2025
+[2026-04-23 16:39:51]     Prix         : 34 990 €
+[2026-04-23 16:39:51]     Kilométrage  : 24 155 km
+[2026-04-23 16:39:51]     Localisation : Saint-Maximin (60)
+[2026-04-23 16:39:51]     URL          : https://www.leboncoin.fr/ad/voitures/3163865699
+[2026-04-23 16:39:51] 
+[2026-04-23 16:39:51] Résultats sauvegardés dans : C:\Users\antho\RechercheVoiture\toyota_corolla_break.csv
+[2026-04-23 16:39:51] ════════════════════════════════════════════
+[2026-04-23 16:39:51]   ✅ Message Telegram envoyé
+[2026-04-23 16:39:52]   ✅ Message Telegram envoyé
+[2026-04-23 16:39:54]   ✅ CSV envoyé sur Telegram
