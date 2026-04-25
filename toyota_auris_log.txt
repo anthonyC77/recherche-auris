@@ -4892,3 +4892,146 @@ error: please commit or stash them.
 [2026-04-25 09:57:26]   ✅ CSV envoyé sur Telegram
 [2026-04-25 09:57:26] ⏳ Pause entre les recherches...
 [25/04/2026  9:58:04,48] Recherche terminee, push en cours... 
+To https://github.com/anthonyC77/recherche-auris.git
+   b003232..346dd3f  lancementLocal -> lancementLocal
+[25/04/2026  9:58:06,68] Push termine. 
+[25/04/2026 20:58:44,16] Demarrage lancement local 
+error: cannot pull with rebase: You have unstaged changes.
+error: please commit or stash them.
+[2026-04-25 20:58:47] ╔═══════════════════════════════════════════════════════╗
+[2026-04-25 20:58:47] ║  Toyota Auris Touring Sport Hybride Toit Panoramique  ║
+[2026-04-25 20:58:47] ╚═══════════════════════════════════════════════════════╝
+[2026-04-25 20:58:47] Vérification des annonces existantes...
+[2026-04-25 20:58:47]   Vérification de 11 annonces en cours...
+[2026-04-25 20:58:57]   🗑️  Supprimée (désactivée) : Toyota Auris Touring Sport Toit panoramique
+[2026-04-25 20:59:57]   🗑️  Supprimée (désactivée) : Auris break
+[2026-04-25 21:00:15]   🗑️  Supprimée (désactivée) : Toyota Auris Touring Sports 1.8 Hybride 136Ch Garantie
+[2026-04-25 21:00:20]   🗑️  Supprimée (désactivée) : Toyota auris touring sport
+[2026-04-25 21:00:31]   🗑️  Supprimée (désactivée) : Toyota Auris Hybride Break - Toit Panoramique - 2014
+[2026-04-25 21:00:38]   🗑️  Supprimée (désactivée) : Toyota auris break
+[2026-04-25 21:00:43]   🗑️  Supprimée (désactivée) : Toyota Auris Touring sport 2018
+[2026-04-25 21:00:48]   🗑️  Supprimée (désactivée) : Toyota Auris touring
+[2026-04-25 21:00:48]   Nettoyage terminé : 8 annonce(s) supprimée(s), 3 restantes
+[2026-04-25 21:00:48] Annonces actives connues : 3
+[2026-04-25 21:00:48] === Leboncoin.fr — démarrage ===
+[2026-04-25 21:00:53]   API LBC mobile HTTP 403
+[2026-04-25 21:00:53]   Fallback : scraping page de recherche LBC...
+[2026-04-25 21:01:16]   Scraping LBC HTML : 35 annonces
+[2026-04-25 21:01:16]   Analyse de 35 annonces...
+[2026-04-25 21:01:44]   (pas Touring Sport) TOYOTA AURIS Hybride 136h Design Toit panoramique garantie 12mois
+[2026-04-25 21:02:04]   ✔ TROUVÉ : Toyota Auris Hybride Break - Toit Panoramique - 2014 | 2014 | 8 500 € | 357 000 km | Boulogne-Billancourt (92)
+[2026-04-25 21:03:06]   (pas Touring Sport) TOYOTA AURIS Hybride 136h Style / Toit Panoramique / GPS / Camera / Cr
+[2026-04-25 21:03:06]   (déjà connue) https://www.leboncoin.fr/ad/voitures/3172167370
+[2026-04-25 21:03:57]   (pas Touring Sport) Toyota Auris hybride 136h toit panoramique / full options
+[2026-04-25 21:03:57]   (pas une Auris) ✅ TOYOTA PRIUS + / 1,8 HYBRID 136h / 7 PLACES
+[2026-04-25 21:03:57]   (pas une Auris) Toyota rav4 - 4 hybride 2wd dynamic 2018
+[2026-04-25 21:04:37]   (pas Touring Sport) Toyota Auris HSD 136h SkyBlue
+[2026-04-25 21:05:01]   (pas Touring Sport) TOYOTA AURIS MY17 Hybride 136h Collection
+[2026-04-25 21:05:45]   (pas Touring Sport) Toyota Auris hybride
+[2026-04-25 21:06:31]   (pas Touring Sport) Toyota Auris toit panoramique
+[2026-04-25 21:06:40]   (pas Touring Sport) Toyota Auris 2015 phase 2 hybride Exécutive
+[2026-04-25 21:06:42]   (pas Touring Sport) Toyota Auris
+[2026-04-25 21:06:44]   ✔ TROUVÉ : Auris break | 2014 | 9 300 € | 232 000 km | Nantes (44)
+[2026-04-25 21:06:46]   ✔ TROUVÉ : Toyota Auris touring | 2016 | 10 100 € | 276 412 km | Tours (37)
+[2026-04-25 21:06:48]   (pas Touring Sport) Auris Hybride Technoline Toit Pano
+[2026-04-25 21:06:51]   (pas Touring Sport) Toyota Auris
+[2026-04-25 21:06:53]   ✔ TROUVÉ : Toyota auris touring sport | 2018 | 10 490 € | 260 000 km | Neuilly-sur-Marne (93)
+[2026-04-25 21:06:55]   ✔ TROUVÉ : Toyota auris break | 2015 | 8 900 € | 390 000 km | Le Bourget (93)
+[2026-04-25 21:06:58]   ✔ TROUVÉ : Toyota Auris Touring sport 2018 | 2018 | 12 000 € | 248 000 km | Herblay-sur-Seine (95)
+[2026-04-25 21:07:00]   (pas Touring Sport) Toyota auris design hybride
+[2026-04-25 21:07:02]   (pas Touring Sport) Toyota Auris Hybride 136h
+[2026-04-25 21:07:05]   ✔ TROUVÉ : Toyota Auris Touring Sports Hybride – Toit pano – Keyless – Caméra – Très propre | 2017 | 12 200 € | 179 000 km | Charenton-le-Pont (94)
+[2026-04-25 21:07:07]   (pas Touring Sport) Toyota auris hybride
+[2026-04-25 21:07:10]   (pas Touring Sport) Toyota auris hybride
+[2026-04-25 21:07:13]   ✔ TROUVÉ : Toyota Auris Touring Sport Toit panoramique | 2016 | 12 500 € | 225 300 km | Bordeaux (33)
+[2026-04-25 21:07:15]   (pas Touring Sport) Toyota Auris phase 2
+[2026-04-25 21:07:17]   (pas Touring Sport) Toyota Auris hybride Éthanol 2016
+[2026-04-25 21:07:20]   (pas Touring Sport) Toyota Auris 2 136H Style
+[2026-04-25 21:07:22]   (pas Touring Sport) TOYOTA AURIS 136h HYBRID DESIGN EDITION | GARANTIE 12 MOIS
+[2026-04-25 21:07:24]   (pas Touring Sport) Toyota Auris II (Phase 2) Hybride 136cv finition design - Entretien To
+[2026-04-25 21:07:24]   (déjà connue) https://www.leboncoin.fr/ad/voitures/3179814602
+[2026-04-25 21:07:24]   (déjà connue) https://www.leboncoin.fr/ad/voitures/3175431685
+[2026-04-25 21:07:26]   (pas Touring Sport) TOYOTA AURIS TOYOTA Phase 2 / 1.8 VVT-i HSD 16V CVT Hybride 99 CH/ BOI
+[2026-04-25 21:07:28]   (pas Touring Sport) Auris Hybride 2014 – Boîte Auto – Toit Panoramique – 195800km
+[2026-04-25 21:07:28] === Leboncoin : 8 annonce(s) avec toit panoramique ===
+[2026-04-25 21:07:28] Pause entre les deux sites...
+[2026-04-25 21:07:32] La Centrale — erreur critique : No module named 'playwright'
+[2026-04-25 21:07:32]   CSV trié (11 annonces) : proximité Ariège → km → prix
+[2026-04-25 21:07:32] 
+[2026-04-25 21:07:32] ══════════════════ RÉSUMÉ ══════════════════
+[2026-04-25 21:07:32] Total trouvées : 8
+[2026-04-25 21:07:32] Nouvelles      : 8
+[2026-04-25 21:07:32] Déjà connues   : 0
+[2026-04-25 21:07:32] 
+[2026-04-25 21:07:32] 🆕 NOUVELLES ANNONCES :
+[2026-04-25 21:07:32]   [leboncoin.fr]
+[2026-04-25 21:07:32]     Titre        : Toyota Auris Hybride Break - Toit Panoramique - 2014
+[2026-04-25 21:07:32]     Année        : 2014
+[2026-04-25 21:07:32]     Prix         : 8 500 €
+[2026-04-25 21:07:32]     Kilométrage  : 357 000 km
+[2026-04-25 21:07:32]     Localisation : Boulogne-Billancourt (92)
+[2026-04-25 21:07:32]     URL          : https://www.leboncoin.fr/ad/voitures/3170455956
+[2026-04-25 21:07:32] 
+[2026-04-25 21:07:32]   [leboncoin.fr]
+[2026-04-25 21:07:32]     Titre        : Auris break
+[2026-04-25 21:07:32]     Année        : 2014
+[2026-04-25 21:07:32]     Prix         : 9 300 €
+[2026-04-25 21:07:32]     Kilométrage  : 232 000 km
+[2026-04-25 21:07:32]     Localisation : Nantes (44)
+[2026-04-25 21:07:32]     URL          : https://www.leboncoin.fr/ad/voitures/3182034862
+[2026-04-25 21:07:32] 
+[2026-04-25 21:07:32]   [leboncoin.fr]
+[2026-04-25 21:07:32]     Titre        : Toyota Auris touring
+[2026-04-25 21:07:32]     Année        : 2016
+[2026-04-25 21:07:32]     Prix         : 10 100 €
+[2026-04-25 21:07:32]     Kilométrage  : 276 412 km
+[2026-04-25 21:07:32]     Localisation : Tours (37)
+[2026-04-25 21:07:32]     URL          : https://www.leboncoin.fr/ad/voitures/3176868614
+[2026-04-25 21:07:32] 
+[2026-04-25 21:07:32]   [leboncoin.fr]
+[2026-04-25 21:07:32]     Titre        : Toyota auris touring sport
+[2026-04-25 21:07:32]     Année        : 2018
+[2026-04-25 21:07:32]     Prix         : 10 490 €
+[2026-04-25 21:07:32]     Kilométrage  : 260 000 km
+[2026-04-25 21:07:32]     Localisation : Neuilly-sur-Marne (93)
+[2026-04-25 21:07:32]     URL          : https://www.leboncoin.fr/ad/voitures/3173955078
+[2026-04-25 21:07:32] 
+[2026-04-25 21:07:32]   [leboncoin.fr]
+[2026-04-25 21:07:32]     Titre        : Toyota auris break
+[2026-04-25 21:07:32]     Année        : 2015
+[2026-04-25 21:07:32]     Prix         : 8 900 €
+[2026-04-25 21:07:32]     Kilométrage  : 390 000 km
+[2026-04-25 21:07:32]     Localisation : Le Bourget (93)
+[2026-04-25 21:07:32]     URL          : https://www.leboncoin.fr/ad/voitures/3175632414
+[2026-04-25 21:07:32] 
+[2026-04-25 21:07:32]   [leboncoin.fr]
+[2026-04-25 21:07:32]     Titre        : Toyota Auris Touring sport 2018
+[2026-04-25 21:07:32]     Année        : 2018
+[2026-04-25 21:07:32]     Prix         : 12 000 €
+[2026-04-25 21:07:32]     Kilométrage  : 248 000 km
+[2026-04-25 21:07:32]     Localisation : Herblay-sur-Seine (95)
+[2026-04-25 21:07:32]     URL          : https://www.leboncoin.fr/ad/voitures/3181960436
+[2026-04-25 21:07:32] 
+[2026-04-25 21:07:32]   [leboncoin.fr]
+[2026-04-25 21:07:32]     Titre        : Toyota Auris Touring Sports Hybride – Toit pano – Keyless – Caméra – Très propre
+[2026-04-25 21:07:32]     Année        : 2017
+[2026-04-25 21:07:32]     Prix         : 12 200 €
+[2026-04-25 21:07:32]     Kilométrage  : 179 000 km
+[2026-04-25 21:07:32]     Localisation : Charenton-le-Pont (94)
+[2026-04-25 21:07:32]     URL          : https://www.leboncoin.fr/ad/voitures/3185995487
+[2026-04-25 21:07:32] 
+[2026-04-25 21:07:32]   [leboncoin.fr]
+[2026-04-25 21:07:32]     Titre        : Toyota Auris Touring Sport Toit panoramique
+[2026-04-25 21:07:32]     Année        : 2016
+[2026-04-25 21:07:32]     Prix         : 12 500 €
+[2026-04-25 21:07:32]     Kilométrage  : 225 300 km
+[2026-04-25 21:07:32]     Localisation : Bordeaux (33)
+[2026-04-25 21:07:32]     URL          : https://www.leboncoin.fr/ad/voitures/3169506117
+[2026-04-25 21:07:32] 
+[2026-04-25 21:07:32] Résultats sauvegardés dans : C:\Users\antho\RechercheVoiture\toyota_auris_panoramique.csv
+[2026-04-25 21:07:32] ════════════════════════════════════════════
+[2026-04-25 21:07:32]   ✅ Message Telegram envoyé
+[2026-04-25 21:07:33]   ✅ Message Telegram envoyé
+[2026-04-25 21:07:36]   ✅ CSV envoyé sur Telegram
+[2026-04-25 21:07:36] ⏳ Pause entre les recherches...
+[25/04/2026 21:08:25,78] Recherche terminee, push en cours... 
