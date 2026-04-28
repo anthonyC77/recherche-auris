@@ -5540,3 +5540,110 @@ error: please commit or stash them.
 [2026-04-27 15:24:21]   ✅ CSV envoyé sur Telegram
 [2026-04-27 15:24:21] ⏳ Pause entre les recherches...
 [27/04/2026 15:25:01,25] Recherche terminee, push en cours... 
+To https://github.com/anthonyC77/recherche-auris.git
+   f39222f..6fbad97  lancementLocal -> lancementLocal
+[27/04/2026 15:25:03,94] Push termine. 
+[28/04/2026 10:24:14,17] Demarrage lancement local 
+error: cannot pull with rebase: You have unstaged changes.
+error: please commit or stash them.
+[2026-04-28 10:24:16] ╔═══════════════════════════════════════════════════════╗
+[2026-04-28 10:24:16] ║  Toyota Auris Touring Sport Hybride Toit Panoramique  ║
+[2026-04-28 10:24:16] ╚═══════════════════════════════════════════════════════╝
+[2026-04-28 10:24:16] Vérification des annonces existantes...
+[2026-04-28 10:24:16]   Vérification de 12 annonces en cours...
+[2026-04-28 10:24:16]   🗑️  Supprimée (désactivée) : Toyota Auris Touring Sport Toit panoramique
+[2026-04-28 10:24:17]   🗑️  Supprimée (désactivée) : Toyota auris touring sports
+[2026-04-28 10:24:18]   🗑️  Supprimée (désactivée) : Toyota auris 2 PHASE 2 touring sports hybride 136h executive - Garanti
+[2026-04-28 10:24:18]   🗑️  Supprimée (désactivée) : Toyota Auris SPORTS Touring Hybride 136h Style
+[2026-04-28 10:24:19]   🗑️  Supprimée (désactivée) : Auris break
+[2026-04-28 10:24:19]   🗑️  Supprimée (désactivée) : Toyota Auris touring
+[2026-04-28 10:24:20]   🗑️  Supprimée (désactivée) : Toyota Auris Touring Sports 1.8 Hybride 136Ch Garantie
+[2026-04-28 10:24:20]   🗑️  Supprimée (désactivée) : Toyota auris touring sport
+[2026-04-28 10:24:21]   🗑️  Supprimée (désactivée) : Toyota Auris Hybride Break - Toit Panoramique - 2014
+[2026-04-28 10:24:22]   🗑️  Supprimée (désactivée) : Toyota auris break
+[2026-04-28 10:24:22]   🗑️  Supprimée (désactivée) : Toyota Auris Touring sport 2018
+[2026-04-28 10:24:23]   🗑️  Supprimée (désactivée) : Toyota Auris touring
+[2026-04-28 10:24:23]   Nettoyage terminé : 12 annonce(s) supprimée(s), 0 restantes
+[2026-04-28 10:24:23] Annonces actives connues : 0
+[2026-04-28 10:24:23] === Leboncoin.fr — démarrage ===
+[2026-04-28 10:24:23]   API LBC mobile HTTP 403
+[2026-04-28 10:24:23]   Fallback : scraping page de recherche LBC...
+[2026-04-28 10:24:29]   Scraping LBC HTML : 35 annonces
+[2026-04-28 10:24:29]   Analyse de 35 annonces...
+[2026-04-28 10:24:32]   (pas Touring Sport) TOYOTA AURIS Hybride 136h Style / Toit Panoramique / GPS / Camera / Cr
+[2026-04-28 10:24:33]   ✔ TROUVÉ : Toyota auris 2 PHASE 2 touring sports hybride 136h executive - Garantie12mois national - Toit panoramique - cuir chauffant - Camera de recul | 2015 | 13 990 € | 129 890 km | Corbas (69)
+[2026-04-28 10:24:39]   (pas Touring Sport) TOYOTA AURIS Hybride 136h Design Toit panoramique garantie 12mois
+[2026-04-28 10:24:45]   (kilométrage trop élevé : 357 000 km) Toyota Auris Hybride Break - Toit Panoramique - 2014
+[2026-04-28 10:24:48]   (pas Touring Sport) Toyota auris phase 2 1.8 hybride 136h feel toit panoramique 2015
+[2026-04-28 10:24:51]   (pas Touring Sport) Toyota Auris hybride 136h toit panoramique / full options
+[2026-04-28 10:24:51]   (pas une Auris) ✅ TOYOTA PRIUS + / 1,8 HYBRID 136h / 7 PLACES
+[2026-04-28 10:24:54]   (kilométrage trop élevé : 222 718 km) Toyota Auris SPORTS Touring Hybride 136h Style
+[2026-04-28 10:24:54]   (pas une Auris) TOYOTA C-HR GR SPORT Première 2.0 Hybrid 200ch - BV CVT AWD-i - FULL O
+[2026-04-28 10:24:55]   (pas Touring Sport) Toyota Auris hybride phase 2
+[2026-04-28 10:24:57]   (pas Touring Sport) Toyota Auris toit panoramique
+[2026-04-28 10:24:59]   (pas Touring Sport) Toyota Auris
+[2026-04-28 10:25:03]   (kilométrage trop élevé : 232 000 km) Auris break
+[2026-04-28 10:25:06]   (pas Touring Sport) Toyota Auris Hybride 136h Style - Toit pano - 2013
+[2026-04-28 10:25:08]   (kilométrage trop élevé : 276 412 km) Toyota Auris touring
+[2026-04-28 10:25:09]   (pas Touring Sport) Toyota Auris
+[2026-04-28 10:25:12]   (pas Touring Sport) Auris Hybride Technoline Toit Pano
+[2026-04-28 10:25:14]   (kilométrage trop élevé : 260 000 km) Toyota auris touring sport
+[2026-04-28 10:25:17]   (kilométrage trop élevé : 390 000 km) Toyota auris break
+[2026-04-28 10:25:20]   (kilométrage trop élevé : 248 000 km) Toyota Auris Touring sport 2018
+[2026-04-28 10:25:23]   (kilométrage trop élevé : 227 000 km) Toyota Auris Touring Sports Hybride 136ch – Toit pano – Cuir
+[2026-04-28 10:25:25]   (pas Touring Sport) Toyota Auris Hybride 136h
+[2026-04-28 10:25:28]   (pas Touring Sport) Toyota auris hybride
+[2026-04-28 10:25:30]   (pas Touring Sport) Toyota Auris phase 2
+[2026-04-28 10:25:32]   (kilométrage trop élevé : 225 300 km) Toyota Auris Touring Sport Toit panoramique
+[2026-04-28 10:25:35]   (pas Touring Sport) Toyota Auris 2 136H Style
+[2026-04-28 10:25:37]   (pas Touring Sport) TOYOTA AURIS 136h HYBRID DESIGN EDITION | GARANTIE 12 MOIS
+[2026-04-28 10:25:39]   (pas Touring Sport) TOYOTA AURIS TOYOTA Phase 2 / 1.8 VVT-i HSD 16V CVT Hybride 99 CH/ BOI
+[2026-04-28 10:25:41]   (pas Touring Sport) Toyota Auris hybride Éthanol 2016
+[2026-04-28 10:25:44]   ✔ TROUVÉ : Toyota Auris touring | 2015 | 7 000 € | 390 km | Drancy (93)
+[2026-04-28 10:25:46]   (pas Touring Sport) Toyota Auris II (Phase 2) Hybride 136cv finition design - Entretien To
+[2026-04-28 10:25:48]   (kilométrage trop élevé : 252 000 km) Toyota auris touring sports
+[2026-04-28 10:25:50]   (pas Touring Sport) Auris Hybride 2014 – Boîte Auto – Toit Panoramique – 195800km
+[2026-04-28 10:25:50]   (pas une Auris) Prius toit panoramique
+[2026-04-28 10:25:53]   ✔ TROUVÉ : Toyota Auris Touring Sports 1.8 Hybride 136Ch Garantie | 2013 | 11 490 € | 150 000 km | Tremblay-en-France (93)
+[2026-04-28 10:25:53] === Leboncoin : 3 annonce(s) avec toit panoramique ===
+[2026-04-28 10:25:53]   CSV trié (3 annonces) : proximité Ariège → km → prix
+[2026-04-28 10:25:53] 
+[2026-04-28 10:25:53] ══════════════════ RÉSUMÉ ══════════════════
+[2026-04-28 10:25:53] Total trouvées : 3
+[2026-04-28 10:25:53] Nouvelles      : 3
+[2026-04-28 10:25:53] Déjà connues   : 0
+[2026-04-28 10:25:53] 
+[2026-04-28 10:25:53] 🆕 NOUVELLES ANNONCES :
+[2026-04-28 10:25:53]   [leboncoin.fr]
+[2026-04-28 10:25:53]     Titre        : Toyota auris 2 PHASE 2 touring sports hybride 136h executive - Garantie12mois national - Toit panoramique - cuir chauffant - Camera de recul
+[2026-04-28 10:25:53]     Année        : 2015
+[2026-04-28 10:25:53]     Prix         : 13 990 €
+[2026-04-28 10:25:53]     Kilométrage  : 129 890 km
+[2026-04-28 10:25:53]     Localisation : Corbas (69)
+[2026-04-28 10:25:53]     URL          : https://www.leboncoin.fr/ad/voitures/3172167370
+[2026-04-28 10:25:53] 
+[2026-04-28 10:25:53]   [leboncoin.fr]
+[2026-04-28 10:25:53]     Titre        : Toyota Auris touring
+[2026-04-28 10:25:53]     Année        : 2015
+[2026-04-28 10:25:53]     Prix         : 7 000 €
+[2026-04-28 10:25:53]     Kilométrage  : 390 km
+[2026-04-28 10:25:53]     Localisation : Drancy (93)
+[2026-04-28 10:25:53]     URL          : https://www.leboncoin.fr/ad/voitures/3179814602
+[2026-04-28 10:25:53] 
+[2026-04-28 10:25:53]   [leboncoin.fr]
+[2026-04-28 10:25:53]     Titre        : Toyota Auris Touring Sports 1.8 Hybride 136Ch Garantie
+[2026-04-28 10:25:53]     Année        : 2013
+[2026-04-28 10:25:53]     Prix         : 11 490 €
+[2026-04-28 10:25:53]     Kilométrage  : 150 000 km
+[2026-04-28 10:25:53]     Localisation : Tremblay-en-France (93)
+[2026-04-28 10:25:53]     URL          : https://www.leboncoin.fr/ad/voitures/3173619473
+[2026-04-28 10:25:53] 
+[2026-04-28 10:25:53] Résultats sauvegardés dans : C:\Users\antho\RechercheVoiture\toyota_auris_panoramique.csv
+[2026-04-28 10:25:53] ════════════════════════════════════════════
+[2026-04-28 10:25:53]   ✅ Message Telegram envoyé
+[2026-04-28 10:25:53]   ⚠️  Telegram tentative 1/3 échouée : ('Connection aborted.', ConnectionResetError(10054, 'Une connexion existante a dû être fermée par l’hôte distant', None, 10054, None))
+[2026-04-28 10:25:57]   ✅ Message Telegram envoyé
+[2026-04-28 10:25:58]   ⚠️  Telegram CSV tentative 1/3 échouée : ('Connection aborted.', ConnectionResetError(10054, 'Une connexion existante a dû être fermée par l’hôte distant', None, 10054, None))
+[2026-04-28 10:26:02]   ✅ CSV envoyé sur Telegram
+[2026-04-28 10:26:02] ⏳ Pause entre les recherches...
+[28/04/2026 10:27:57,17] Recherche terminee, push en cours... 

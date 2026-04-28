@@ -54,6 +54,7 @@ SEARCHES = [
         "filtre_marque":    "auris",                # mot obligatoire dans le titre
         "filtre_carrosserie": ["touring", "break", "ts"],  # ts = titre seulement
         "filtre_pano":      ["panoramique", "toit pano", "toit ouvrant panoramique", "skyview"],
+        "max_km":           200000,                  # kilométrage maximum accepté
         "csv_file":         "toyota_auris_panoramique.csv",
         "log_file":         "toyota_auris_log.txt",
         "dept_ref":         "09",                   # département de référence (Ariège)
@@ -70,6 +71,7 @@ SEARCHES = [
         "lac_energy":       "HYBRID",
         "filtre_marque":    "corolla",
         "filtre_pano":      ["panoramique", "toit pano", "toit ouvrant panoramique", "skyview"],
+        "max_km":           200000,
         "csv_file":         "toyota_corolla_break.csv",
         "log_file":         "toyota_corolla_log.txt",
         "dept_ref":         "09",
@@ -77,7 +79,25 @@ SEARCHES = [
         "telegram_chat_id": _TG_CHAT_ID,
     },
 
-    # ── Recherche 3 : exemple commenté — décommentez et adaptez si besoin ─────
+    # ── Recherche 3 : Tesla Model 3 Long Range ────────────────────────────────
+    {
+        "nom_recherche":    "Tesla Model 3 Long Range",
+        "lbc_keywords":     "tesla model 3 long range",
+        "lac_make_model":   "TESLA%3AMODEL+3",
+        "lac_option":       "",
+        "lac_energy":       "ELECTRIC",
+        "filtre_marque":    "model 3",
+        "filtre_carrosserie": ["long range"],        # doit mentionner "long range"
+        "filtre_pano":      [],                      # pas de filtre toit pano
+        "max_km":           200000,
+        "csv_file":         "tesla_model3_longrange.csv",
+        "log_file":         "tesla_model3_log.txt",
+        "dept_ref":         "09",
+        "telegram_token":   _TG_TOKEN,
+        "telegram_chat_id": _TG_CHAT_ID,
+    },
+
+    # ── Recherche 4 : exemple commenté — décommentez et adaptez si besoin ─────
     # {
     #     "nom_recherche":    "Peugeot 308 SW Diesel Toit Panoramique",
     #     "lbc_keywords":     "peugeot 308 sw diesel",
@@ -87,6 +107,7 @@ SEARCHES = [
     #     "filtre_marque":    "308",
     #     "filtre_carrosserie": ["sw", "break"],
     #     "filtre_pano":      ["panoramique", "toit pano", "skyview"],
+    #     "max_km":           200000,
     #     "csv_file":         "peugeot_308_sw.csv",
     #     "log_file":         "peugeot_308_sw_log.txt",
     #     "dept_ref":         "09",
@@ -645,6 +666,14 @@ def scrape_leboncoin():
             elif key == "mileage" and not km:
                 km = fmt_km(val)
 
+        # Vérifier la limite de kilométrage
+        max_km = CONFIG.get("max_km", None)
+        if max_km is not None and km:
+            km_num = re.sub(r'[^\d]', '', km)
+            if km_num and int(km_num) > max_km:
+                log(f"  (kilométrage trop élevé : {km}) {titre[:60]}")
+                continue
+
         results.append({
             "source":       "leboncoin.fr",
             "titre":        titre,
@@ -898,14 +927,14 @@ def run_one_search(search_config: dict):
     except Exception as e:
         log(f"Leboncoin — erreur critique : {e}")
 
-    log("Pause entre les deux sites...")
-    time.sleep(random.uniform(3, 6))
-
-    try:
-        lac = scrape_lacentrale()
-        all_results.extend(lac)
-    except Exception as e:
-        log(f"La Centrale — erreur critique : {e}")
+    # La Centrale désactivée — recherche leboncoin uniquement
+    # log("Pause entre les deux sites...")
+    # time.sleep(random.uniform(3, 6))
+    # try:
+    #     lac = scrape_lacentrale()
+    #     all_results.extend(lac)
+    # except Exception as e:
+    #     log(f"La Centrale — erreur critique : {e}")
 
     new_results = [r for r in all_results if r["url"] not in existing_urls]
 
@@ -947,7 +976,8 @@ def main():
     for i, search_config in enumerate(SEARCHES):
         if i > 0:
             log("⏳ Pause entre les recherches...")
-            time.sleep(random.uniform(5, 10))
+            import time as _t
+            _t.sleep(random.uniform(5, 10))
         run_one_search(search_config)
 
 
