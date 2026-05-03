@@ -2613,3 +2613,34 @@
 [2026-04-29 14:02:12]   ✅ Message Telegram envoyé
 [2026-04-29 14:02:14]   ✅ CSV envoyé sur Telegram
 [2026-04-29 14:02:14] ⏳ Pause entre les recherches...
+[2026-05-03 21:09:45] ╔═════════════════════════════════════════════════╗
+[2026-05-03 21:09:45] ║  Toyota Corolla Break Hybride Toit Panoramique  ║
+[2026-05-03 21:09:45] ╚═════════════════════════════════════════════════╝
+[2026-05-03 21:09:45] Vérification des annonces existantes...
+[2026-05-03 21:09:45]   Vérification de 7 annonces en cours...
+[2026-05-03 21:09:45]   🗑️  Supprimée (désactivée) : Toyota Corolla TS Collection
+[2026-05-03 21:09:46]   🗑️  Supprimée (désactivée) : Toyota Corolla TOURING SPORTS HYBRIDE 184H 8CV COLLECTION GARANTIE 12 
+[2026-05-03 21:09:46]   🗑️  Supprimée (désactivée) : TOYOTA COROLLA TOURING SPORTS HYBRIDE MY22 184 Cv COLLECTION - TOIT OU
+[2026-05-03 21:09:47]   🗑️  Supprimée (désactivée) : Toyota Corolla 1.8 140H Hybrid Design / TOIT OUVRANT CAMERA DE RECUL
+[2026-05-03 21:09:48]   🗑️  Supprimée (désactivée) : Toyota corolla touring sports HYBRIDE 196ch Collection
+[2026-05-03 21:09:48]   🗑️  Supprimée (désactivée) : Toyota Corolla Touring Sports 184h Collection – 2021 – 53 421 km
+[2026-05-03 21:09:49]   🗑️  Supprimée (désactivée) : Toyota Corolla Touring Sports Hybride 184h Collection
+[2026-05-03 21:09:49]   Nettoyage terminé : 7 annonce(s) supprimée(s), 0 restantes
+[2026-05-03 21:09:49] Annonces actives connues : 0
+[2026-05-03 21:09:49] === Leboncoin.fr — démarrage ===
+[2026-05-03 21:09:49]   API LBC mobile HTTP 403
+[2026-05-03 21:09:49]   Fallback : scraping page de recherche LBC...
+[2026-05-03 21:09:58]   LeBonCoin : impossible de récupérer les annonces
+[2026-05-03 21:09:58]   CSV trié (0 annonces) : proximité Ariège → km → prix
+[2026-05-03 21:09:58] 
+[2026-05-03 21:09:58] ══════════════════ RÉSUMÉ ══════════════════
+[2026-05-03 21:09:58] Total trouvées : 0
+[2026-05-03 21:09:58] Nouvelles      : 0
+[2026-05-03 21:09:58] Déjà connues   : 0
+[2026-05-03 21:09:58] Aucune nouvelle annonce depuis la dernière recherche.
+[2026-05-03 21:09:58] Résultats sauvegardés dans : C:\Users\antho\RechercheVoiture\toyota_corolla_break.csv
+[2026-05-03 21:09:58] ════════════════════════════════════════════
+[2026-05-03 21:09:58]   ⚠️  Telegram tentative 1/3 échouée : ('Connection aborted.', ConnectionResetError(10054, 'Une connexion existante a dû être fermée par l’hôte distant', None, 10054, None))
+[2026-05-03 21:10:02]   ✅ Message Telegram envoyé
+[2026-05-03 21:10:03]   ✅ CSV envoyé sur Telegram
+[2026-05-03 21:10:03] ⏳ Pause entre les recherches...
