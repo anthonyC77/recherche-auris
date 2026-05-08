@@ -5867,3 +5867,33 @@ error: please commit or stash them.
 [2026-05-07 10:24:06]   ✅ CSV envoyé sur Telegram
 [2026-05-07 10:24:06] ⏳ Pause entre les recherches...
 [07/05/2026 10:24:48,73] Recherche terminee, push en cours... 
+To https://github.com/anthonyC77/recherche-auris.git
+   a246508..1deb3a4  lancementLocal -> lancementLocal
+[07/05/2026 10:24:51,12] Push termine. 
+[08/05/2026  7:40:59,16] Demarrage lancement local 
+error: cannot pull with rebase: You have unstaged changes.
+error: please commit or stash them.
+[2026-05-08 07:41:04] ╔═══════════════════════════════════════════════════════╗
+[2026-05-08 07:41:04] ║  Toyota Auris Touring Sport Hybride Toit Panoramique  ║
+[2026-05-08 07:41:04] ╚═══════════════════════════════════════════════════════╝
+[2026-05-08 07:41:04] Vérification des annonces existantes...
+[2026-05-08 07:41:04]   Vérification de 0 annonces en cours...
+[2026-05-08 07:41:04]   Nettoyage terminé : toutes les 0 annonces sont encore actives
+[2026-05-08 07:41:04] Annonces actives connues : 0
+[2026-05-08 07:41:04] === Leboncoin.fr — démarrage ===
+[2026-05-08 07:41:04]   API LBC mobile HTTP 403
+[2026-05-08 07:41:04]   Fallback : scraping page de recherche LBC...
+[2026-05-08 07:41:15]   LeBonCoin : impossible de récupérer les annonces
+[2026-05-08 07:41:15]   CSV trié (0 annonces) : proximité Ariège → km → prix
+[2026-05-08 07:41:15] 
+[2026-05-08 07:41:15] ══════════════════ RÉSUMÉ ══════════════════
+[2026-05-08 07:41:15] Total trouvées : 0
+[2026-05-08 07:41:15] Nouvelles      : 0
+[2026-05-08 07:41:15] Déjà connues   : 0
+[2026-05-08 07:41:15] Aucune nouvelle annonce depuis la dernière recherche.
+[2026-05-08 07:41:15] Résultats sauvegardés dans : C:\Users\antho\RechercheVoiture\toyota_auris_panoramique.csv
+[2026-05-08 07:41:15] ════════════════════════════════════════════
+[2026-05-08 07:41:15]   ✅ Message Telegram envoyé
+[2026-05-08 07:41:17]   ✅ CSV envoyé sur Telegram
+[2026-05-08 07:41:17] ⏳ Pause entre les recherches...
+[08/05/2026  7:42:04,53] Recherche terminee, push en cours... 
