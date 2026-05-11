@@ -2792,3 +2792,27 @@
 [2026-05-10 16:00:34]   ⚠️  Telegram CSV tentative 1/3 échouée : ('Connection aborted.', ConnectionResetError(10054, 'Une connexion existante a dû être fermée par l’hôte distant', None, 10054, None))
 [2026-05-10 16:00:38]   ✅ CSV envoyé sur Telegram
 [2026-05-10 16:00:38] ⏳ Pause entre les recherches...
+[2026-05-11 10:07:19] ╔═════════════════════════════════════════════════╗
+[2026-05-11 10:07:19] ║  Toyota Corolla Break Hybride Toit Panoramique  ║
+[2026-05-11 10:07:19] ╚═════════════════════════════════════════════════╝
+[2026-05-11 10:07:19] Vérification des annonces existantes...
+[2026-05-11 10:07:19]   Vérification de 0 annonces en cours...
+[2026-05-11 10:07:19]   Nettoyage terminé : toutes les 0 annonces sont encore actives
+[2026-05-11 10:07:19] Annonces actives connues : 0
+[2026-05-11 10:07:19] === Leboncoin.fr — démarrage ===
+[2026-05-11 10:07:19]   API LBC mobile HTTP 403
+[2026-05-11 10:07:19]   Fallback : scraping page de recherche LBC...
+[2026-05-11 10:07:27]   LeBonCoin : impossible de récupérer les annonces
+[2026-05-11 10:07:27]   CSV trié (0 annonces) : proximité Ariège → km → prix
+[2026-05-11 10:07:27] 
+[2026-05-11 10:07:27] ══════════════════ RÉSUMÉ ══════════════════
+[2026-05-11 10:07:27] Total trouvées : 0
+[2026-05-11 10:07:27] Nouvelles      : 0
+[2026-05-11 10:07:27] Déjà connues   : 0
+[2026-05-11 10:07:27] Aucune nouvelle annonce depuis la dernière recherche.
+[2026-05-11 10:07:27] Résultats sauvegardés dans : C:\Users\antho\RechercheVoiture\toyota_corolla_break.csv
+[2026-05-11 10:07:27] ════════════════════════════════════════════
+[2026-05-11 10:07:27]   ✅ Message Telegram envoyé
+[2026-05-11 10:07:28]   ⚠️  Telegram CSV tentative 1/3 échouée : ('Connection aborted.', ConnectionResetError(10054, 'Une connexion existante a dû être fermée par l’hôte distant', None, 10054, None))
+[2026-05-11 10:07:32]   ✅ CSV envoyé sur Telegram
+[2026-05-11 10:07:32] ⏳ Pause entre les recherches...
