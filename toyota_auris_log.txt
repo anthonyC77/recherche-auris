@@ -6050,3 +6050,34 @@ error: please commit or stash them.
 [2026-05-14 10:48:35]   ✅ CSV envoyé sur Telegram
 [2026-05-14 10:48:35] ⏳ Pause entre les recherches...
 [14/05/2026 10:49:21,43] Recherche terminee, push en cours... 
+To https://github.com/anthonyC77/recherche-auris.git
+   000fedc..6e899a0  lancementLocal -> lancementLocal
+[14/05/2026 10:49:24,91] Push termine. 
+[14/05/2026 23:54:23,40] Demarrage lancement local 
+[15/05/2026  0:01:55,20] Demarrage lancement local 
+error: cannot pull with rebase: You have unstaged changes.
+error: please commit or stash them.
+[2026-05-15 00:01:57] ╔═══════════════════════════════════════════════════════╗
+[2026-05-15 00:01:57] ║  Toyota Auris Touring Sport Hybride Toit Panoramique  ║
+[2026-05-15 00:01:57] ╚═══════════════════════════════════════════════════════╝
+[2026-05-15 00:01:57] Vérification des annonces existantes...
+[2026-05-15 00:01:57]   Vérification de 0 annonces en cours...
+[2026-05-15 00:01:57]   Nettoyage terminé : toutes les 0 annonces sont encore actives
+[2026-05-15 00:01:57] Annonces actives connues : 0
+[2026-05-15 00:01:57] === Leboncoin.fr — démarrage ===
+[2026-05-15 00:01:58]   API LBC mobile HTTP 403
+[2026-05-15 00:01:58]   Fallback : scraping page de recherche LBC...
+[2026-05-15 00:02:04]   LeBonCoin : impossible de récupérer les annonces
+[2026-05-15 00:02:04]   CSV trié (0 annonces) : proximité Ariège → km → prix
+[2026-05-15 00:02:04] 
+[2026-05-15 00:02:04] ══════════════════ RÉSUMÉ ══════════════════
+[2026-05-15 00:02:04] Total trouvées : 0
+[2026-05-15 00:02:04] Nouvelles      : 0
+[2026-05-15 00:02:04] Déjà connues   : 0
+[2026-05-15 00:02:04] Aucune nouvelle annonce depuis la dernière recherche.
+[2026-05-15 00:02:04] Résultats sauvegardés dans : C:\Users\antho\RechercheVoiture\toyota_auris_panoramique.csv
+[2026-05-15 00:02:04] ════════════════════════════════════════════
+[2026-05-15 00:02:05]   ✅ Message Telegram envoyé
+[2026-05-15 00:02:06]   ✅ CSV envoyé sur Telegram
+[2026-05-15 00:02:06] ⏳ Pause entre les recherches...
+[15/05/2026  0:02:42,32] Recherche terminee, push en cours... 
