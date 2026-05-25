@@ -54,7 +54,7 @@ SEARCHES = [
         "filtre_marque":    "auris",                # mot obligatoire dans le titre
         "filtre_carrosserie": ["touring", "break", "ts"],  # ts = titre seulement
         "filtre_pano":      ["panoramique", "toit pano", "toit ouvrant panoramique", "skyview"],
-        "max_km":           200000,                  # kilométrage maximum accepté
+        "max_km":           250000,                  # kilométrage maximum accepté
         "csv_file":         "toyota_auris_panoramique.csv",
         "log_file":         "toyota_auris_log.txt",
         "dept_ref":         "09",                   # département de référence (Ariège)
@@ -71,7 +71,7 @@ SEARCHES = [
         "lac_energy":       "HYBRID",
         "filtre_marque":    "corolla",
         "filtre_pano":      ["panoramique", "toit pano", "toit ouvrant panoramique", "skyview"],
-        "max_km":           200000,
+        "max_km":           250000,
         "csv_file":         "toyota_corolla_break.csv",
         "log_file":         "toyota_corolla_log.txt",
         "dept_ref":         "09",
@@ -89,7 +89,7 @@ SEARCHES = [
         "filtre_marque":    "model 3",
         "filtre_carrosserie": ["long range"],        # doit mentionner "long range"
         "filtre_pano":      [],                      # pas de filtre toit pano
-        "max_km":           200000,
+        "max_km":           250000,
         "csv_file":         "tesla_model3_longrange.csv",
         "log_file":         "tesla_model3_log.txt",
         "dept_ref":         "09",
