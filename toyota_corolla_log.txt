@@ -3310,3 +3310,26 @@
 [2026-05-30 19:13:07]   ✅ Message Telegram envoyé
 [2026-05-30 19:13:08]   ✅ CSV envoyé sur Telegram
 [2026-05-30 19:13:08] ⏳ Pause entre les recherches...
+[2026-05-31 14:49:16] ╔═════════════════════════════════════════════════╗
+[2026-05-31 14:49:16] ║  Toyota Corolla Break Hybride Toit Panoramique  ║
+[2026-05-31 14:49:16] ╚═════════════════════════════════════════════════╝
+[2026-05-31 14:49:16] Vérification des annonces existantes...
+[2026-05-31 14:49:16]   Vérification de 0 annonces en cours...
+[2026-05-31 14:49:16]   Nettoyage terminé : toutes les 0 annonces sont encore actives
+[2026-05-31 14:49:16] Annonces actives connues : 0
+[2026-05-31 14:49:16] === Leboncoin.fr — démarrage ===
+[2026-05-31 14:49:16]   API LBC mobile HTTP 403
+[2026-05-31 14:49:16]   Fallback : scraping page de recherche LBC...
+[2026-05-31 14:49:24]   LeBonCoin : impossible de récupérer les annonces
+[2026-05-31 14:49:24]   CSV trié (0 annonces) : proximité Ariège → km → prix
+[2026-05-31 14:49:24] 
+[2026-05-31 14:49:24] ══════════════════ RÉSUMÉ ══════════════════
+[2026-05-31 14:49:24] Total trouvées : 0
+[2026-05-31 14:49:24] Nouvelles      : 0
+[2026-05-31 14:49:24] Déjà connues   : 0
+[2026-05-31 14:49:24] Aucune nouvelle annonce depuis la dernière recherche.
+[2026-05-31 14:49:24] Résultats sauvegardés dans : C:\Users\antho\RechercheVoiture\toyota_corolla_break.csv
+[2026-05-31 14:49:24] ════════════════════════════════════════════
+[2026-05-31 14:49:24]   ✅ Message Telegram envoyé
+[2026-05-31 14:49:25]   ✅ CSV envoyé sur Telegram
+[2026-05-31 14:49:25] ⏳ Pause entre les recherches...
