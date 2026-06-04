@@ -6724,3 +6724,34 @@ error: please commit or stash them.
 [2026-06-03 09:01:37]   ✅ CSV envoyé sur Telegram
 [2026-06-03 09:01:37] ⏳ Pause entre les recherches...
 [03/06/2026  9:02:13,93] Recherche terminee, push en cours... 
+To https://github.com/anthonyC77/recherche-auris.git
+   0f01712..fd76fa9  lancementLocal -> lancementLocal
+[03/06/2026  9:02:16,35] Push termine. 
+[04/06/2026  9:22:01,15] Demarrage lancement local 
+error: cannot pull with rebase: You have unstaged changes.
+error: please commit or stash them.
+[2026-06-04 09:22:03] ╔═══════════════════════════════════════════════════════╗
+[2026-06-04 09:22:03] ║  Toyota Auris Touring Sport Hybride Toit Panoramique  ║
+[2026-06-04 09:22:03] ╚═══════════════════════════════════════════════════════╝
+[2026-06-04 09:22:03] Vérification des annonces existantes...
+[2026-06-04 09:22:03]   Vérification de 0 annonces en cours...
+[2026-06-04 09:22:03]   Nettoyage terminé : toutes les 0 annonces sont encore actives
+[2026-06-04 09:22:03] Annonces actives connues : 0
+[2026-06-04 09:22:03] === Leboncoin.fr — démarrage ===
+[2026-06-04 09:22:03]   API LBC mobile HTTP 403
+[2026-06-04 09:22:03]   Fallback : scraping page de recherche LBC...
+[2026-06-04 09:22:10]   LeBonCoin : impossible de récupérer les annonces
+[2026-06-04 09:22:10]   CSV trié (0 annonces) : proximité Ariège → km → prix
+[2026-06-04 09:22:10] 
+[2026-06-04 09:22:10] ══════════════════ RÉSUMÉ ══════════════════
+[2026-06-04 09:22:10] Total trouvées : 0
+[2026-06-04 09:22:10] Nouvelles      : 0
+[2026-06-04 09:22:10] Déjà connues   : 0
+[2026-06-04 09:22:10] Aucune nouvelle annonce depuis la dernière recherche.
+[2026-06-04 09:22:10] Résultats sauvegardés dans : C:\Users\antho\RechercheVoiture\toyota_auris_panoramique.csv
+[2026-06-04 09:22:10] ════════════════════════════════════════════
+[2026-06-04 09:22:10]   ✅ Message Telegram envoyé
+[2026-06-04 09:22:12]   ⚠️  Telegram CSV tentative 1/3 échouée : ('Connection aborted.', ConnectionResetError(10054, 'Une connexion existante a dû être fermée par l’hôte distant', None, 10054, None))
+[2026-06-04 09:22:15]   ✅ CSV envoyé sur Telegram
+[2026-06-04 09:22:15] ⏳ Pause entre les recherches...
+[04/06/2026  9:23:16,22] Recherche terminee, push en cours... 
