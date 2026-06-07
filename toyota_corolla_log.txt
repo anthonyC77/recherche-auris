@@ -3762,3 +3762,109 @@
 [2026-06-06 17:31:04]   ⚠️  Telegram CSV tentative 1/3 échouée : ('Connection aborted.', ConnectionResetError(10054, 'Une connexion existante a dû être fermée par l’hôte distant', None, 10054, None))
 [2026-06-06 17:31:08]   ✅ CSV envoyé sur Telegram
 [2026-06-06 17:31:08] ⏳ Pause entre les recherches...
+[2026-06-07 09:14:19] ╔═════════════════════════════════════════════════╗
+[2026-06-07 09:14:19] ║  Toyota Corolla Break Hybride Toit Panoramique  ║
+[2026-06-07 09:14:19] ╚═════════════════════════════════════════════════╝
+[2026-06-07 09:14:19] Vérification des annonces existantes...
+[2026-06-07 09:14:19]   Vérification de 1 annonces en cours...
+[2026-06-07 09:14:19]   Nettoyage terminé : toutes les 1 annonces sont encore actives
+[2026-06-07 09:14:19] Annonces actives connues : 1
+[2026-06-07 09:14:19] === Leboncoin.fr — démarrage (Playwright/Chromium) ===
+[2026-06-07 09:14:20]   Chargement accueil LeBonCoin...
+[2026-06-07 09:14:24]   Chargement résultats de recherche LBC...
+[2026-06-07 09:14:32]   0 annonces capturées via réseau
+[2026-06-07 09:14:32]   35 annonces via __NEXT_DATA__ (fallback)
+[2026-06-07 09:14:32]   Analyse de 35 annonces...
+[2026-06-07 09:14:32]   (pas le bon modèle) Volkswagen Golf 1.4 eHybrid 245ch GTE DSG6
+[2026-06-07 09:14:35]   Capturé 4 annonces depuis : https://api.leboncoin.fr/finder/search
+[2026-06-07 09:14:35]   (pas pano) Toyota corolla touring sports Spt Hybride 122ch business
+[2026-06-07 09:14:38]   Capturé 10 annonces depuis : https://api.leboncoin.fr/api/same/v4/search/3210901179?size=10
+[2026-06-07 09:14:38]   (pas pano) Toyota Corolla Break Hybride
+[2026-06-07 09:14:40]   Capturé 10 annonces depuis : https://api.leboncoin.fr/api/same/v4/search/3197230119?size=10
+[2026-06-07 09:14:40]   Capturé 4 annonces depuis : https://api.leboncoin.fr/finder/search
+[2026-06-07 09:14:41]   (pas pano) Toyota Corolla BREAK ACTIVE PLUS - 1.8 140 CV HYBRIDE
+[2026-06-07 09:14:44]   Capturé 10 annonces depuis : https://api.leboncoin.fr/api/same/v4/search/3196770866?size=10
+[2026-06-07 09:14:44]   (pas pano) Toyota Corolla Break hybride 184ch
+[2026-06-07 09:14:46]   Capturé 4 annonces depuis : https://api.leboncoin.fr/finder/search
+[2026-06-07 09:14:47]   (pas pano) TOYOTA COROLLA Touring Sports Hybride 122h - BV CVT TOURING SPORTS BRE
+[2026-06-07 09:14:49]   Capturé 10 annonces depuis : https://api.leboncoin.fr/api/same/v4/search/3210931044?size=10
+[2026-06-07 09:14:50]   (pas pano) Toyota Corolla Hybride Break
+[2026-06-07 09:14:52]   Capturé 10 annonces depuis : https://api.leboncoin.fr/api/same/v4/search/3183623626?size=10
+[2026-06-07 09:14:52]   Capturé 4 annonces depuis : https://api.leboncoin.fr/finder/search
+[2026-06-07 09:14:52]   (pas pano) Toyota Corolla BREAK ACTIVE PLUS 1.8 140CV HYBRIDE 10KMS 374/MOIS
+[2026-06-07 09:14:54]   Capturé 10 annonces depuis : https://api.leboncoin.fr/api/same/v4/search/3171039562?size=10
+[2026-06-07 09:14:55]   (pas pano) TOYOTA Corolla Touring Sports 5P / Break Hybride 122h Dynamic Business
+[2026-06-07 09:14:57]   Capturé 10 annonces depuis : https://api.leboncoin.fr/api/same/v4/search/3188682157?size=10
+[2026-06-07 09:14:57]   Capturé 4 annonces depuis : https://api.leboncoin.fr/finder/search
+[2026-06-07 09:14:58]   (pas pano) TOYOTA COROLLA Touring Sports Hybride 180h - BV CVT 2022 TOURING SPORT
+[2026-06-07 09:14:59]   Capturé 4 annonces depuis : https://api.leboncoin.fr/finder/search
+[2026-06-07 09:15:00]   (pas pano) TOYOTA COROLLA Touring Sports Hybride 122h - BV CVT TOURING SPORTS 201
+[2026-06-07 09:15:02]   Capturé 4 annonces depuis : https://api.leboncoin.fr/finder/search
+[2026-06-07 09:15:03]   (pas pano) TOYOTA COROLLA Touring Sports Hybride 122h - BV CVT 2021 TOURING SPORT
+[2026-06-07 09:15:04]   Capturé 10 annonces depuis : https://api.leboncoin.fr/api/same/v4/search/3202992810?size=10
+[2026-06-07 09:15:05]   Capturé 4 annonces depuis : https://api.leboncoin.fr/finder/search
+[2026-06-07 09:15:05]   (pas pano) Toyota Corolla SPORT Touring 1.8 Hybride 140ch Design -22.56%
+[2026-06-07 09:15:07]   Capturé 10 annonces depuis : https://api.leboncoin.fr/api/same/v4/search/3206108261?size=10
+[2026-06-07 09:15:08]   (pas pano) Toyota corolla
+[2026-06-07 09:15:10]   Capturé 10 annonces depuis : https://api.leboncoin.fr/api/same/v4/search/3208862039?size=10
+[2026-06-07 09:15:10]   Capturé 4 annonces depuis : https://api.leboncoin.fr/finder/search
+[2026-06-07 09:15:11]   (pas pano) Toyota corolla touring sports Hybride 1.8 140ch Active Plus
+[2026-06-07 09:15:12]   Capturé 10 annonces depuis : https://api.leboncoin.fr/api/same/v4/search/3191828952?size=10
+[2026-06-07 09:15:12]   Capturé 4 annonces depuis : https://api.leboncoin.fr/finder/search
+[2026-06-07 09:15:13]   (pas pano) Toyota corolla touring sports HYBRIDE PRO MY20 122H DYNAMIC BUSINESS
+[2026-06-07 09:15:15]   Capturé 10 annonces depuis : https://api.leboncoin.fr/api/same/v4/search/3195911210?size=10
+[2026-06-07 09:15:16]   (pas pano) Toyota corolla
+[2026-06-07 09:15:18]   Capturé 10 annonces depuis : https://api.leboncoin.fr/api/same/v4/search/3147734277?size=10
+[2026-06-07 09:15:19]   (pas pano) Toyota corolla break 2020
+[2026-06-07 09:15:21]   Capturé 4 annonces depuis : https://api.leboncoin.fr/api/adfinder/v1/owner_listing
+[2026-06-07 09:15:21]   Capturé 10 annonces depuis : https://api.leboncoin.fr/api/same/v4/search/3193346631?size=10
+[2026-06-07 09:15:22]   (pas pano) Toyota Corolla
+[2026-06-07 09:15:24]   Capturé 10 annonces depuis : https://api.leboncoin.fr/api/same/v4/search/3175376480?size=10
+[2026-06-07 09:15:24]   Capturé 4 annonces depuis : https://api.leboncoin.fr/finder/search
+[2026-06-07 09:15:25]   (pas pano) Toyota corolla touring sports hybride 140CH DYNAMIC BUSINESS
+[2026-06-07 09:15:27]   Capturé 4 annonces depuis : https://api.leboncoin.fr/finder/search
+[2026-06-07 09:15:27]   (pas pano) Toyota corolla touring sports HYBRIDE 122h Design
+[2026-06-07 09:15:30]   Capturé 4 annonces depuis : https://api.leboncoin.fr/finder/search
+[2026-06-07 09:15:30]   (pas pano) Toyota corolla touring sports Hybride 140ch Dynamic Business
+[2026-06-07 09:15:33]   Capturé 10 annonces depuis : https://api.leboncoin.fr/api/same/v4/search/3202509603?size=10
+[2026-06-07 09:15:33]   Capturé 4 annonces depuis : https://api.leboncoin.fr/finder/search
+[2026-06-07 09:15:34]   (pas pano) TOYOTA COROLLA TOURING SPT 1.8 122 HYBRIDE 12/2022 / 116 000MK DYNAMIC
+[2026-06-07 09:15:36]   Capturé 10 annonces depuis : https://api.leboncoin.fr/api/same/v4/search/3196515778?size=10
+[2026-06-07 09:15:36]   Capturé 4 annonces depuis : https://api.leboncoin.fr/finder/search
+[2026-06-07 09:15:36]   (pas pano) Toyota Corolla Touring Spt Hybride 184h GR Sport
+[2026-06-07 09:15:38]   Capturé 4 annonces depuis : https://api.leboncoin.fr/finder/search
+[2026-06-07 09:15:39]   (pas pano) Toyota Corolla 122h Dynamic Business
+[2026-06-07 09:15:41]   Capturé 4 annonces depuis : https://api.leboncoin.fr/finder/search
+[2026-06-07 09:15:42]   (pas pano) Toyota Corolla 184h Dynamic Business
+[2026-06-07 09:15:45]   Capturé 10 annonces depuis : https://api.leboncoin.fr/api/same/v4/search/3144291800?size=10
+[2026-06-07 09:15:45]   Capturé 4 annonces depuis : https://api.leboncoin.fr/finder/search
+[2026-06-07 09:15:45]   (pas pano) Toyota corolla touring sports HYBRIDE 196H COLLECTION MY25
+[2026-06-07 09:15:46]   Capturé 10 annonces depuis : https://api.leboncoin.fr/api/same/v4/search/3202480934?size=10
+[2026-06-07 09:15:47]   Capturé 4 annonces depuis : https://api.leboncoin.fr/finder/search
+[2026-06-07 09:15:47]   (pas pano) TOYOTA COROLLA TOURING SPORT Hybride 1.8 122h BVA CVT Dynamic ETAT NEU
+[2026-06-07 09:15:49]   Capturé 4 annonces depuis : https://api.leboncoin.fr/api/adfinder/v1/owner_listing
+[2026-06-07 09:15:49]   Capturé 10 annonces depuis : https://api.leboncoin.fr/api/same/v4/search/3190821114?size=10
+[2026-06-07 09:15:49]   (pas pano) Toyota Corolla Touring Sports 122h Dynamic – Hybride, Caméra, Radar AV
+[2026-06-07 09:15:52]   Capturé 10 annonces depuis : https://api.leboncoin.fr/api/same/v4/search/3176017831?size=10
+[2026-06-07 09:15:52]   Capturé 4 annonces depuis : https://api.leboncoin.fr/finder/search
+[2026-06-07 09:15:52]   (pas pano) Toyota Corolla Break Hybrid 2.0 180ch / Attelage /1er Main
+[2026-06-07 09:15:54]   Capturé 1 annonces depuis : https://api.leboncoin.fr/api/adfinder/v1/owner_listing
+[2026-06-07 09:15:54]   Capturé 10 annonces depuis : https://api.leboncoin.fr/api/same/v4/search/3187312811?size=10
+[2026-06-07 09:15:55]   (pas pano) Toyota corolla
+[2026-06-07 09:15:55]   (pas le bon modèle) Kia Ceed SW 1.5 T-GDI 160ch Active Business DCT7
+[2026-06-07 09:15:55]   (pas le bon modèle) Toyota Auris 1.8i HYBRIDE Boite Automatique 136ch CAMERA DE RECUL
+[2026-06-07 09:15:55]   (pas le bon modèle) Toyota Prius 2 1.5 HYBRIDE Boîte AUTOMATIQUE CAMERA RECUL
+[2026-06-07 09:15:55]   (pas le bon modèle) Ford Mondeo SW 2.0 HYBRID 187ch Titanium Business BVA
+[2026-06-07 09:15:55] === Leboncoin : 0 annonce(s) ===
+[2026-06-07 09:15:55]   CSV trié (1 annonces) : proximité Ariège → km → prix
+[2026-06-07 09:15:55] 
+[2026-06-07 09:15:55] ══════════════════ RÉSUMÉ ══════════════════
+[2026-06-07 09:15:55] Total trouvées : 0
+[2026-06-07 09:15:55] Nouvelles      : 0
+[2026-06-07 09:15:55] Déjà connues   : 0
+[2026-06-07 09:15:55] Aucune nouvelle annonce depuis la dernière recherche.
+[2026-06-07 09:15:55] Résultats sauvegardés dans : C:\Users\antho\RechercheVoiture\toyota_corolla_break.csv
+[2026-06-07 09:15:55] ════════════════════════════════════════════
+[2026-06-07 09:15:55]   ✅ Message Telegram envoyé
+[2026-06-07 09:15:57]   ✅ CSV envoyé sur Telegram
+[2026-06-07 09:15:57] ⏳ Pause entre les recherches...
