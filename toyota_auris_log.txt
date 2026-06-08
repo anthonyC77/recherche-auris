@@ -7229,3 +7229,128 @@ error: please commit or stash them.
 [2026-06-07 09:14:12]   ✅ CSV envoyé sur Telegram
 [2026-06-07 09:14:12] ⏳ Pause entre les recherches...
 [07/06/2026  9:17:06,39] Recherche terminee, push en cours... 
+To https://github.com/anthonyC77/recherche-auris.git
+   285108c..c036692  lancementLocal -> lancementLocal
+[07/06/2026  9:17:08,74] Push termine. 
+[08/06/2026 10:27:04,15] Demarrage lancement local 
+error: cannot pull with rebase: You have unstaged changes.
+error: please commit or stash them.
+[2026-06-08 10:27:07] ╔═══════════════════════════════════════════════════════╗
+[2026-06-08 10:27:07] ║  Toyota Auris Touring Sport Hybride Toit Panoramique  ║
+[2026-06-08 10:27:07] ╚═══════════════════════════════════════════════════════╝
+[2026-06-08 10:27:07] Vérification des annonces existantes...
+[2026-06-08 10:27:07]   Vérification de 1 annonces en cours...
+[2026-06-08 10:27:07]   Nettoyage terminé : toutes les 1 annonces sont encore actives
+[2026-06-08 10:27:07] Annonces actives connues : 1
+[2026-06-08 10:27:08] === Leboncoin.fr — démarrage (Playwright/Chromium) ===
+[2026-06-08 10:27:11]   Chargement accueil LeBonCoin...
+[2026-06-08 10:27:16]   Cookies acceptés
+[2026-06-08 10:27:16]   Chargement résultats de recherche LBC...
+[2026-06-08 10:27:37]   0 annonces capturées via réseau
+[2026-06-08 10:27:37]   35 annonces via __NEXT_DATA__ (fallback)
+[2026-06-08 10:27:37]   Analyse de 35 annonces...
+[2026-06-08 10:27:40]   Capturé 4 annonces depuis : https://api.leboncoin.fr/finder/search
+[2026-06-08 10:27:40]   (pas pano) Toyota Auris II Hybride 136h Dynamic
+[2026-06-08 10:27:40]   (pas le bon modèle) Bmw serie 2 f45 active tourer hybride rechargeable 224cv 218xe 1.5i - 
+[2026-06-08 10:27:43]   Capturé 10 annonces depuis : https://api.leboncoin.fr/api/same/v4/search/3206693132?size=10
+[2026-06-08 10:27:43]   (pas pano) Toyota auris hybride
+[2026-06-08 10:27:45]   Capturé 10 annonces depuis : https://api.leboncoin.fr/api/same/v4/search/3202481714?size=10
+[2026-06-08 10:27:45]   Capturé 4 annonces depuis : https://api.leboncoin.fr/finder/search
+[2026-06-08 10:27:45]   (pas pano) TOYOTA Auris Hybride 136h Executive
+[2026-06-08 10:27:47]   Capturé 10 annonces depuis : https://api.leboncoin.fr/api/same/v4/search/3168853589?size=10
+[2026-06-08 10:27:47]   Capturé 4 annonces depuis : https://api.leboncoin.fr/finder/search
+[2026-06-08 10:27:48]   (pas pano) Toyota Auris Hybride 136h Dynamic
+[2026-06-08 10:27:50]   Capturé 10 annonces depuis : https://api.leboncoin.fr/api/same/v4/search/3187960068?size=10
+[2026-06-08 10:27:50]   (pas pano) Toyota Auris Hybride 136ch 2011 191700km
+[2026-06-08 10:27:53]   Capturé 10 annonces depuis : https://api.leboncoin.fr/api/same/v4/search/3212561164?size=10
+[2026-06-08 10:27:53]   (pas pano) Toyota Auris hybride
+[2026-06-08 10:27:55]   Capturé 4 annonces depuis : https://api.leboncoin.fr/api/adfinder/v1/owner_listing
+[2026-06-08 10:27:55]   Capturé 8 annonces depuis : https://api.leboncoin.fr/api/same/v4/search/3211957204?size=10
+[2026-06-08 10:27:56]   (pas pano) Toyota Auris hybride
+[2026-06-08 10:27:58]   (pas pano) Toyota Auris hybride
+[2026-06-08 10:28:00]   Erreur body annonce LBC : Page.goto: net::ERR_ABORTED at https://www.leboncoin.fr/ad/voitures/3210335662
+Call log:
+  - navigating to "https://www.leboncoin.fr/ad/voitures/3210335662", waiting until "domcontentloaded"
+
+[2026-06-08 10:28:00]   (pas pano) Toyota Auris hybride
+[2026-06-08 10:28:01]   Capturé 4 annonces depuis : https://api.leboncoin.fr/api/adfinder/v1/owner_listing
+[2026-06-08 10:28:01]   Capturé 10 annonces depuis : https://api.leboncoin.fr/api/same/v4/search/3211819204?size=10
+[2026-06-08 10:28:02]   Capturé 10 annonces depuis : https://api.leboncoin.fr/api/same/v4/search/3212478400?size=10
+[2026-06-08 10:28:03]   (pas pano) Toyota Auris hybride
+[2026-06-08 10:28:05]   Capturé 2 annonces depuis : https://api.leboncoin.fr/api/adfinder/v1/owner_listing
+[2026-06-08 10:28:05]   Capturé 10 annonces depuis : https://api.leboncoin.fr/api/same/v4/search/3209863248?size=10
+[2026-06-08 10:28:05]   (pas pano) Toyota auris hybride
+[2026-06-08 10:28:08]   Capturé 10 annonces depuis : https://api.leboncoin.fr/api/same/v4/search/3211977250?size=10
+[2026-06-08 10:28:08]   (pas pano) Toyota Auris Hybride
+[2026-06-08 10:28:11]   Capturé 10 annonces depuis : https://api.leboncoin.fr/api/same/v4/search/3209350003?size=10
+[2026-06-08 10:28:11]   (pas pano) Toyota Auris hybride
+[2026-06-08 10:28:14]   Capturé 4 annonces depuis : https://api.leboncoin.fr/api/adfinder/v1/owner_listing
+[2026-06-08 10:28:14]   Capturé 10 annonces depuis : https://api.leboncoin.fr/api/same/v4/search/3210686450?size=10
+[2026-06-08 10:28:15]   (pas pano) Toyota Auris Hybride
+[2026-06-08 10:28:17]   Capturé 1 annonces depuis : https://api.leboncoin.fr/api/adfinder/v1/owner_listing
+[2026-06-08 10:28:17]   Capturé 10 annonces depuis : https://api.leboncoin.fr/api/same/v4/search/3210517839?size=10
+[2026-06-08 10:28:17]   (pas Touring Sport) Toyota Auris Hybride
+[2026-06-08 10:28:20]   Capturé 1 annonces depuis : https://api.leboncoin.fr/api/adfinder/v1/owner_listing
+[2026-06-08 10:28:20]   Capturé 10 annonces depuis : https://api.leboncoin.fr/api/same/v4/search/3209017060?size=10
+[2026-06-08 10:28:20]   (pas pano) Toyota Auris Hybride
+[2026-06-08 10:28:23]   Capturé 10 annonces depuis : https://api.leboncoin.fr/api/same/v4/search/3206659348?size=10
+[2026-06-08 10:28:23]   (pas pano) Toyota Auris hybride
+[2026-06-08 10:28:25]   Capturé 4 annonces depuis : https://api.leboncoin.fr/api/adfinder/v1/owner_listing
+[2026-06-08 10:28:25]   Capturé 10 annonces depuis : https://api.leboncoin.fr/api/same/v4/search/2997996932?size=10
+[2026-06-08 10:28:26]   (pas pano) Toyota Auris Hybride
+[2026-06-08 10:28:28]   Capturé 10 annonces depuis : https://api.leboncoin.fr/api/same/v4/search/3206286868?size=10
+[2026-06-08 10:28:29]   (pas pano) Toyota Auris hybride
+[2026-06-08 10:28:31]   Capturé 4 annonces depuis : https://api.leboncoin.fr/api/adfinder/v1/owner_listing
+[2026-06-08 10:28:31]   Capturé 10 annonces depuis : https://api.leboncoin.fr/api/same/v4/search/3185510891?size=10
+[2026-06-08 10:28:32]   (pas pano) Toyota Auris hybride
+[2026-06-08 10:28:34]   Capturé 4 annonces depuis : https://api.leboncoin.fr/api/adfinder/v1/owner_listing
+[2026-06-08 10:28:34]   Capturé 10 annonces depuis : https://api.leboncoin.fr/api/same/v4/search/3103485570?size=10
+[2026-06-08 10:28:34]   (pas pano) Toyota Auris hybride
+[2026-06-08 10:28:36]   Capturé 10 annonces depuis : https://api.leboncoin.fr/api/same/v4/search/3185547887?size=10
+[2026-06-08 10:28:37]   (pas pano) Toyota auris hybride
+[2026-06-08 10:28:39]   Capturé 1 annonces depuis : https://api.leboncoin.fr/api/adfinder/v1/owner_listing
+[2026-06-08 10:28:39]   Capturé 10 annonces depuis : https://api.leboncoin.fr/api/same/v4/search/3211679231?size=10
+[2026-06-08 10:28:40]   (pas pano) Toyota auris hybride
+[2026-06-08 10:28:42]   Capturé 10 annonces depuis : https://api.leboncoin.fr/api/same/v4/search/3205821760?size=10
+[2026-06-08 10:28:42]   (pas pano) Toyota auris hybride
+[2026-06-08 10:28:44]   Capturé 1 annonces depuis : https://api.leboncoin.fr/api/adfinder/v1/owner_listing
+[2026-06-08 10:28:44]   Capturé 10 annonces depuis : https://api.leboncoin.fr/api/same/v4/search/3212000411?size=10
+[2026-06-08 10:28:45]   (pas pano) Toyota Auris hybride
+[2026-06-08 10:28:47]   Capturé 10 annonces depuis : https://api.leboncoin.fr/api/same/v4/search/3210614506?size=10
+[2026-06-08 10:28:48]   (pas pano) Toyota auris hybride
+[2026-06-08 10:28:50]   Capturé 10 annonces depuis : https://api.leboncoin.fr/api/same/v4/search/3205000165?size=10
+[2026-06-08 10:28:51]   (pas pano) Toyota Auris Hybride
+[2026-06-08 10:28:53]   Capturé 4 annonces depuis : https://api.leboncoin.fr/api/adfinder/v1/owner_listing
+[2026-06-08 10:28:53]   Capturé 10 annonces depuis : https://api.leboncoin.fr/api/same/v4/search/3211952079?size=10
+[2026-06-08 10:28:54]   (pas Touring Sport) Toyota Auris hybride
+[2026-06-08 10:28:55]   Capturé 1 annonces depuis : https://api.leboncoin.fr/api/adfinder/v1/owner_listing
+[2026-06-08 10:28:55]   Capturé 10 annonces depuis : https://api.leboncoin.fr/api/same/v4/search/3208436384?size=10
+[2026-06-08 10:28:56]   (pas pano) Toyota Auris Hybride
+[2026-06-08 10:28:58]   Capturé 10 annonces depuis : https://api.leboncoin.fr/api/same/v4/search/3204361931?size=10
+[2026-06-08 10:28:59]   (pas pano) Toyota Auris Hybride
+[2026-06-08 10:29:01]   Capturé 10 annonces depuis : https://api.leboncoin.fr/api/same/v4/search/3210835543?size=10
+[2026-06-08 10:29:02]   (pas pano) Toyota auris hybride
+[2026-06-08 10:29:05]   Capturé 10 annonces depuis : https://api.leboncoin.fr/api/same/v4/search/3204373488?size=10
+[2026-06-08 10:29:05]   (pas pano) Toyota Auris Hybride
+[2026-06-08 10:29:07]   Capturé 10 annonces depuis : https://api.leboncoin.fr/api/same/v4/search/3194600800?size=10
+[2026-06-08 10:29:08]   Capturé 4 annonces depuis : https://api.leboncoin.fr/finder/search
+[2026-06-08 10:29:08]   (pas pano) Toyota Auris II HYBRIDE 136H DYNAMIC
+[2026-06-08 10:29:10]   Capturé 10 annonces depuis : https://api.leboncoin.fr/api/same/v4/search/3171657956?size=10
+[2026-06-08 10:29:11]   (pas pano) Toyota Auris hybride
+[2026-06-08 10:29:11] === Leboncoin : 0 annonce(s) ===
+[2026-06-08 10:29:11]   CSV trié (1 annonces) : proximité Ariège → km → prix
+[2026-06-08 10:29:11] 
+[2026-06-08 10:29:11] ══════════════════ RÉSUMÉ ══════════════════
+[2026-06-08 10:29:11] Total trouvées : 0
+[2026-06-08 10:29:11] Nouvelles      : 0
+[2026-06-08 10:29:11] Déjà connues   : 0
+[2026-06-08 10:29:11] Aucune nouvelle annonce depuis la dernière recherche.
+[2026-06-08 10:29:11] Résultats sauvegardés dans : C:\Users\antho\RechercheVoiture\toyota_auris_panoramique.csv
+[2026-06-08 10:29:11] ════════════════════════════════════════════
+[2026-06-08 10:29:12]   ⚠️  Telegram tentative 1/3 échouée : ('Connection aborted.', ConnectionResetError(10054, 'Une connexion existante a dû être fermée par l’hôte distant', None, 10054, None))
+[2026-06-08 10:29:15]   ⚠️  Telegram tentative 2/3 échouée : ('Connection aborted.', ConnectionResetError(10054, 'Une connexion existante a dû être fermée par l’hôte distant', None, 10054, None))
+[2026-06-08 10:29:18]   ⚠️  Telegram tentative 3/3 échouée : ('Connection aborted.', ConnectionResetError(10054, 'Une connexion existante a dû être fermée par l’hôte distant', None, 10054, None))
+[2026-06-08 10:29:18]   ❌ Telegram : impossible d'envoyer le message après 3 tentatives.
+[2026-06-08 10:29:19]   ✅ CSV envoyé sur Telegram
+[2026-06-08 10:29:19] ⏳ Pause entre les recherches...
+[08/06/2026 10:32:24,46] Recherche terminee, push en cours... 
