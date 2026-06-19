@@ -7716,3 +7716,34 @@ error: please commit or stash them.
 [2026-06-17 21:07:02]   ✅ CSV envoyé sur Telegram
 [2026-06-17 21:07:02] ⏳ Pause entre les recherches...
 [17/06/2026 21:11:28,86] Recherche terminee, push en cours... 
+To https://github.com/anthonyC77/recherche-auris.git
+   6cf24ee..7523f36  lancementLocal -> lancementLocal
+[17/06/2026 21:11:31,40] Push termine. 
+[19/06/2026  9:18:00,20] Demarrage lancement local 
+error: cannot pull with rebase: You have unstaged changes.
+error: please commit or stash them.
+[2026-06-19 09:18:02] ╔═══════════════════════════════════════════════════════╗
+[2026-06-19 09:18:02] ║  Toyota Auris Touring Sport Hybride Toit Panoramique  ║
+[2026-06-19 09:18:02] ╚═══════════════════════════════════════════════════════╝
+[2026-06-19 09:18:02] Vérification des annonces existantes...
+[2026-06-19 09:18:02]   Vérification de 1 annonces en cours...
+[2026-06-19 09:18:03]   Nettoyage terminé : toutes les 1 annonces sont encore actives
+[2026-06-19 09:18:03] Annonces actives connues : 1
+[2026-06-19 09:18:03] === Leboncoin.fr — démarrage (Playwright/Chromium) ===
+[2026-06-19 09:18:06]   Chargement accueil LeBonCoin...
+[2026-06-19 09:18:10]   Cookies acceptés
+[2026-06-19 09:18:10]   Chargement résultats de recherche LBC...
+[2026-06-19 09:18:21]   Erreur chargement recherche LBC : Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-19 09:18:21]   CSV trié (1 annonces) : proximité Ariège → km → prix
+[2026-06-19 09:18:21] 
+[2026-06-19 09:18:21] ══════════════════ RÉSUMÉ ══════════════════
+[2026-06-19 09:18:21] Total trouvées : 0
+[2026-06-19 09:18:21] Nouvelles      : 0
+[2026-06-19 09:18:21] Déjà connues   : 0
+[2026-06-19 09:18:21] Aucune nouvelle annonce depuis la dernière recherche.
+[2026-06-19 09:18:21] Résultats sauvegardés dans : C:\Users\antho\RechercheVoiture\toyota_auris_panoramique.csv
+[2026-06-19 09:18:21] ════════════════════════════════════════════
+[2026-06-19 09:18:22]   ✅ Message Telegram envoyé
+[2026-06-19 09:18:23]   ✅ CSV envoyé sur Telegram
+[2026-06-19 09:18:23] ⏳ Pause entre les recherches...
+[19/06/2026  9:19:53,84] Recherche terminee, push en cours... 

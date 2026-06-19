@@ -4225,3 +4225,30 @@ Call log:
 [2026-06-17 21:08:48]   ✅ Message Telegram envoyé
 [2026-06-17 21:08:50]   ✅ CSV envoyé sur Telegram
 [2026-06-17 21:08:50] ⏳ Pause entre les recherches...
+[2026-06-19 09:18:33] ╔═════════════════════════════════════════════════╗
+[2026-06-19 09:18:33] ║  Toyota Corolla Break Hybride Toit Panoramique  ║
+[2026-06-19 09:18:33] ╚═════════════════════════════════════════════════╝
+[2026-06-19 09:18:33] Vérification des annonces existantes...
+[2026-06-19 09:18:33]   Vérification de 1 annonces en cours...
+[2026-06-19 09:18:33]   Nettoyage terminé : toutes les 1 annonces sont encore actives
+[2026-06-19 09:18:33] Annonces actives connues : 1
+[2026-06-19 09:18:33] === Leboncoin.fr — démarrage (Playwright/Chromium) ===
+[2026-06-19 09:18:34]   Chargement accueil LeBonCoin...
+[2026-06-19 09:18:40]   Cookies acceptés
+[2026-06-19 09:18:40]   Chargement résultats de recherche LBC...
+[2026-06-19 09:18:41]   Erreur chargement recherche LBC : Page.goto: Target page, context or browser has been closed
+Call log:
+  - navigating to "https://www.leboncoin.fr/recherche?category=2&text=toyota+corolla+break+hybride", waiting until "networkidle"
+
+[2026-06-19 09:18:41]   CSV trié (1 annonces) : proximité Ariège → km → prix
+[2026-06-19 09:18:41] 
+[2026-06-19 09:18:41] ══════════════════ RÉSUMÉ ══════════════════
+[2026-06-19 09:18:41] Total trouvées : 0
+[2026-06-19 09:18:41] Nouvelles      : 0
+[2026-06-19 09:18:41] Déjà connues   : 0
+[2026-06-19 09:18:41] Aucune nouvelle annonce depuis la dernière recherche.
+[2026-06-19 09:18:41] Résultats sauvegardés dans : C:\Users\antho\RechercheVoiture\toyota_corolla_break.csv
+[2026-06-19 09:18:41] ════════════════════════════════════════════
+[2026-06-19 09:18:41]   ✅ Message Telegram envoyé
+[2026-06-19 09:18:42]   ✅ CSV envoyé sur Telegram
+[2026-06-19 09:18:42] ⏳ Pause entre les recherches...
