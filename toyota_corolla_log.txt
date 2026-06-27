@@ -4489,3 +4489,30 @@ Call log:
 [2026-06-26 11:08:39]   ⚠️  Telegram CSV tentative 1/3 échouée : ('Connection aborted.', ConnectionResetError(10054, 'Une connexion existante a dû être fermée par l’hôte distant', None, 10054, None))
 [2026-06-26 11:08:42]   ✅ CSV envoyé sur Telegram
 [2026-06-26 11:08:42] ⏳ Pause entre les recherches...
+[2026-06-27 10:33:13] ╔═════════════════════════════════════════════════╗
+[2026-06-27 10:33:13] ║  Toyota Corolla Break Hybride Toit Panoramique  ║
+[2026-06-27 10:33:13] ╚═════════════════════════════════════════════════╝
+[2026-06-27 10:33:13] Vérification des annonces existantes...
+[2026-06-27 10:33:13]   Vérification de 1 annonces en cours...
+[2026-06-27 10:33:13]   Nettoyage terminé : toutes les 1 annonces sont encore actives
+[2026-06-27 10:33:13] Annonces actives connues : 1
+[2026-06-27 10:33:13] === Leboncoin.fr — démarrage (Playwright/Chromium) ===
+[2026-06-27 10:33:14]   Chargement accueil LeBonCoin...
+[2026-06-27 10:33:20]   Chargement résultats de recherche LBC...
+[2026-06-27 10:33:25]   0 annonces capturées via réseau
+[2026-06-27 10:33:25]   Fallback DOM : extraction des liens...
+[2026-06-27 10:33:25]   0 liens d'annonces trouvés (DOM)
+[2026-06-27 10:33:25] === Leboncoin : 0 annonce(s) ===
+[2026-06-27 10:33:25]   CSV trié (1 annonces) : proximité Ariège → km → prix
+[2026-06-27 10:33:25] 
+[2026-06-27 10:33:25] ══════════════════ RÉSUMÉ ══════════════════
+[2026-06-27 10:33:25] Total trouvées : 0
+[2026-06-27 10:33:25] Nouvelles      : 0
+[2026-06-27 10:33:25] Déjà connues   : 0
+[2026-06-27 10:33:25] Aucune nouvelle annonce depuis la dernière recherche.
+[2026-06-27 10:33:25] Résultats sauvegardés dans : C:\Users\antho\RechercheVoiture\toyota_corolla_break.csv
+[2026-06-27 10:33:25] ════════════════════════════════════════════
+[2026-06-27 10:33:25]   ✅ Message Telegram envoyé
+[2026-06-27 10:33:26]   ⚠️  Telegram CSV tentative 1/3 échouée : ('Connection aborted.', ConnectionResetError(10054, 'Une connexion existante a dû être fermée par l’hôte distant', None, 10054, None))
+[2026-06-27 10:33:50]   ✅ CSV envoyé sur Telegram
+[2026-06-27 10:33:50] ⏳ Pause entre les recherches...
