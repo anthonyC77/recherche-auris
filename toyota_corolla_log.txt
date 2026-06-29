@@ -4544,3 +4544,31 @@ Call log:
 [2026-06-28 16:30:30]   ✅ Message Telegram envoyé
 [2026-06-28 16:30:32]   ✅ CSV envoyé sur Telegram
 [2026-06-28 16:30:32] ⏳ Pause entre les recherches...
+[2026-06-29 10:25:30] ╔═════════════════════════════════════════════════╗
+[2026-06-29 10:25:30] ║  Toyota Corolla Break Hybride Toit Panoramique  ║
+[2026-06-29 10:25:30] ╚═════════════════════════════════════════════════╝
+[2026-06-29 10:25:30] Vérification des annonces existantes...
+[2026-06-29 10:25:30]   Vérification de 1 annonces en cours...
+[2026-06-29 10:25:31]   Nettoyage terminé : toutes les 1 annonces sont encore actives
+[2026-06-29 10:25:31] Annonces actives connues : 1
+[2026-06-29 10:25:31] === Leboncoin.fr — démarrage (Playwright/Chromium) ===
+[2026-06-29 10:25:31]   Chargement accueil LeBonCoin...
+[2026-06-29 10:25:36]   Cookies acceptés
+[2026-06-29 10:25:36]   Chargement résultats de recherche LBC...
+[2026-06-29 10:25:42]   0 annonces capturées via réseau
+[2026-06-29 10:25:42]   Fallback DOM : extraction des liens...
+[2026-06-29 10:25:42]   0 liens d'annonces trouvés (DOM)
+[2026-06-29 10:25:42] === Leboncoin : 0 annonce(s) ===
+[2026-06-29 10:25:42]   CSV trié (1 annonces) : proximité Ariège → km → prix
+[2026-06-29 10:25:42] 
+[2026-06-29 10:25:42] ══════════════════ RÉSUMÉ ══════════════════
+[2026-06-29 10:25:42] Total trouvées : 0
+[2026-06-29 10:25:42] Nouvelles      : 0
+[2026-06-29 10:25:42] Déjà connues   : 0
+[2026-06-29 10:25:42] Aucune nouvelle annonce depuis la dernière recherche.
+[2026-06-29 10:25:42] Résultats sauvegardés dans : C:\Users\antho\RechercheVoiture\toyota_corolla_break.csv
+[2026-06-29 10:25:42] ════════════════════════════════════════════
+[2026-06-29 10:25:42]   ✅ Message Telegram envoyé
+[2026-06-29 10:25:43]   ⚠️  Telegram CSV tentative 1/3 échouée : ('Connection aborted.', ConnectionResetError(10054, 'Une connexion existante a dû être fermée par l’hôte distant', None, 10054, None))
+[2026-06-29 10:25:47]   ✅ CSV envoyé sur Telegram
+[2026-06-29 10:25:47] ⏳ Pause entre les recherches...
