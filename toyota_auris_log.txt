@@ -8308,3 +8308,37 @@ error: please commit or stash them.
 [2026-07-02 08:03:00]   ✅ CSV envoyé sur Telegram
 [2026-07-02 08:03:00] ⏳ Pause entre les recherches...
 [02/07/2026  8:04:57,66] Recherche terminee, push en cours... 
+To https://github.com/anthonyC77/recherche-auris.git
+   f84adf3..575cc63  lancementLocal -> lancementLocal
+[02/07/2026  8:05:00,04] Push termine. 
+[03/07/2026  9:51:50,18] Demarrage lancement local 
+error: cannot pull with rebase: You have unstaged changes.
+error: please commit or stash them.
+[2026-07-03 09:51:52] ╔═══════════════════════════════════════════════════════╗
+[2026-07-03 09:51:52] ║  Toyota Auris Touring Sport Hybride Toit Panoramique  ║
+[2026-07-03 09:51:52] ╚═══════════════════════════════════════════════════════╝
+[2026-07-03 09:51:52] Vérification des annonces existantes...
+[2026-07-03 09:51:52]   Vérification de 1 annonces en cours...
+[2026-07-03 09:51:53]   Nettoyage terminé : toutes les 1 annonces sont encore actives
+[2026-07-03 09:51:53] Annonces actives connues : 1
+[2026-07-03 09:51:54] === Leboncoin.fr — démarrage (Playwright/Chromium) ===
+[2026-07-03 09:52:00]   Chargement accueil LeBonCoin...
+[2026-07-03 09:52:05]   Chargement résultats de recherche LBC...
+[2026-07-03 09:52:10]   0 annonces capturées via réseau
+[2026-07-03 09:52:10]   Fallback DOM : extraction des liens...
+[2026-07-03 09:52:10]   0 liens d'annonces trouvés (DOM)
+[2026-07-03 09:52:10] === Leboncoin : 0 annonce(s) ===
+[2026-07-03 09:52:10]   CSV trié (1 annonces) : proximité Ariège → km → prix
+[2026-07-03 09:52:10] 
+[2026-07-03 09:52:10] ══════════════════ RÉSUMÉ ══════════════════
+[2026-07-03 09:52:10] Total trouvées : 0
+[2026-07-03 09:52:10] Nouvelles      : 0
+[2026-07-03 09:52:10] Déjà connues   : 0
+[2026-07-03 09:52:10] Aucune nouvelle annonce depuis la dernière recherche.
+[2026-07-03 09:52:10] Résultats sauvegardés dans : C:\Users\antho\RechercheVoiture\toyota_auris_panoramique.csv
+[2026-07-03 09:52:10] ════════════════════════════════════════════
+[2026-07-03 09:52:11]   ✅ Message Telegram envoyé
+[2026-07-03 09:52:12]   ⚠️  Telegram CSV tentative 1/3 échouée : ('Connection aborted.', ConnectionResetError(10054, 'Une connexion existante a dû être fermée par l’hôte distant', None, 10054, None))
+[2026-07-03 09:52:15]   ✅ CSV envoyé sur Telegram
+[2026-07-03 09:52:15] ⏳ Pause entre les recherches...
+[03/07/2026  9:56:26,29] Recherche terminee, push en cours... 
