@@ -8415,3 +8415,37 @@ navigating to "https://www.leboncoin.fr/recherche?category=2&text=toyota+auris+h
 [2026-07-09 07:29:43]   ❌ Telegram CSV : impossible d'envoyer après 3 tentatives.
 [2026-07-09 07:29:43] ⏳ Pause entre les recherches...
 [09/07/2026  7:31:28,54] Recherche terminee, push en cours... 
+To https://github.com/anthonyC77/recherche-auris.git
+   7ca9358..c4f8223  lancementLocal -> lancementLocal
+[09/07/2026  7:31:31,57] Push termine. 
+[17/07/2026  7:59:48,12] Demarrage lancement local 
+error: cannot pull with rebase: You have unstaged changes.
+error: please commit or stash them.
+[2026-07-17 07:59:50] ╔═══════════════════════════════════════════════════════╗
+[2026-07-17 07:59:50] ║  Toyota Auris Touring Sport Hybride Toit Panoramique  ║
+[2026-07-17 07:59:50] ╚═══════════════════════════════════════════════════════╝
+[2026-07-17 07:59:50] Vérification des annonces existantes...
+[2026-07-17 07:59:50]   Vérification de 1 annonces en cours...
+[2026-07-17 07:59:51]   Nettoyage terminé : toutes les 1 annonces sont encore actives
+[2026-07-17 07:59:51] Annonces actives connues : 1
+[2026-07-17 07:59:52] === Leboncoin.fr — démarrage (Playwright/Chromium) ===
+[2026-07-17 07:59:59]   Chargement accueil LeBonCoin...
+[2026-07-17 08:00:04]   Cookies acceptés
+[2026-07-17 08:00:04]   Chargement résultats de recherche LBC...
+[2026-07-17 08:00:10]   0 annonces capturées via réseau
+[2026-07-17 08:00:10]   Fallback DOM : extraction des liens...
+[2026-07-17 08:00:10]   0 liens d'annonces trouvés (DOM)
+[2026-07-17 08:00:10] === Leboncoin : 0 annonce(s) ===
+[2026-07-17 08:00:10]   CSV trié (1 annonces) : proximité Ariège → km → prix
+[2026-07-17 08:00:10] 
+[2026-07-17 08:00:10] ══════════════════ RÉSUMÉ ══════════════════
+[2026-07-17 08:00:10] Total trouvées : 0
+[2026-07-17 08:00:10] Nouvelles      : 0
+[2026-07-17 08:00:10] Déjà connues   : 0
+[2026-07-17 08:00:10] Aucune nouvelle annonce depuis la dernière recherche.
+[2026-07-17 08:00:10] Résultats sauvegardés dans : C:\Users\antho\RechercheVoiture\toyota_auris_panoramique.csv
+[2026-07-17 08:00:10] ════════════════════════════════════════════
+[2026-07-17 08:00:11]   ✅ Message Telegram envoyé
+[2026-07-17 08:00:12]   ✅ CSV envoyé sur Telegram
+[2026-07-17 08:00:12] ⏳ Pause entre les recherches...
+[17/07/2026  8:01:41,62] Recherche terminee, push en cours... 
