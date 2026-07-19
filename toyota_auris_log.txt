@@ -8449,3 +8449,64 @@ error: please commit or stash them.
 [2026-07-17 08:00:12]   ✅ CSV envoyé sur Telegram
 [2026-07-17 08:00:12] ⏳ Pause entre les recherches...
 [17/07/2026  8:01:41,62] Recherche terminee, push en cours... 
+To https://github.com/anthonyC77/recherche-auris.git
+   c4f8223..17ea46b  lancementLocal -> lancementLocal
+[17/07/2026  8:01:44,14] Push termine. 
+[18/07/2026  7:50:43,15] Demarrage lancement local 
+error: cannot pull with rebase: You have unstaged changes.
+error: please commit or stash them.
+[2026-07-18 07:50:46] ╔═══════════════════════════════════════════════════════╗
+[2026-07-18 07:50:46] ║  Toyota Auris Touring Sport Hybride Toit Panoramique  ║
+[2026-07-18 07:50:46] ╚═══════════════════════════════════════════════════════╝
+[2026-07-18 07:50:46] Vérification des annonces existantes...
+[2026-07-18 07:50:46]   Vérification de 1 annonces en cours...
+[2026-07-18 07:50:47]   Nettoyage terminé : toutes les 1 annonces sont encore actives
+[2026-07-18 07:50:47] Annonces actives connues : 1
+[2026-07-18 07:50:48] === Leboncoin.fr — démarrage (Playwright/Chromium) ===
+[2026-07-18 07:50:55]   Chargement accueil LeBonCoin...
+[2026-07-18 07:50:58]   Avertissement accueil LBC : Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-07-18 07:50:58]   Chargement résultats de recherche LBC...
+[2026-07-18 07:50:58]   Erreur chargement recherche LBC : Page.goto: Target page, context or browser has been closed
+[2026-07-18 07:50:58]   CSV trié (1 annonces) : proximité Ariège → km → prix
+[2026-07-18 07:50:58] 
+[2026-07-18 07:50:58] ══════════════════ RÉSUMÉ ══════════════════
+[2026-07-18 07:50:58] Total trouvées : 0
+[2026-07-18 07:50:58] Nouvelles      : 0
+[2026-07-18 07:50:58] Déjà connues   : 0
+[2026-07-18 07:50:58] Aucune nouvelle annonce depuis la dernière recherche.
+[2026-07-18 07:50:58] Résultats sauvegardés dans : C:\Users\antho\RechercheVoiture\toyota_auris_panoramique.csv
+[2026-07-18 07:50:58] ════════════════════════════════════════════
+[2026-07-18 07:50:59]   ✅ Message Telegram envoyé
+[2026-07-18 07:51:00]   ✅ CSV envoyé sur Telegram
+[2026-07-18 07:51:00] ⏳ Pause entre les recherches...
+[19/07/2026  8:43:15,15] Demarrage lancement local 
+error: cannot pull with rebase: You have unstaged changes.
+error: please commit or stash them.
+[2026-07-19 08:43:17] ╔═══════════════════════════════════════════════════════╗
+[2026-07-19 08:43:17] ║  Toyota Auris Touring Sport Hybride Toit Panoramique  ║
+[2026-07-19 08:43:17] ╚═══════════════════════════════════════════════════════╝
+[2026-07-19 08:43:17] Vérification des annonces existantes...
+[2026-07-19 08:43:17]   Vérification de 1 annonces en cours...
+[2026-07-19 08:43:18]   Nettoyage terminé : toutes les 1 annonces sont encore actives
+[2026-07-19 08:43:18] Annonces actives connues : 1
+[2026-07-19 08:43:19] === Leboncoin.fr — démarrage (Playwright/Chromium) ===
+[2026-07-19 08:43:25]   Chargement accueil LeBonCoin...
+[2026-07-19 08:43:30]   Cookies acceptés
+[2026-07-19 08:43:30]   Chargement résultats de recherche LBC...
+[2026-07-19 08:43:36]   0 annonces capturées via réseau
+[2026-07-19 08:43:36]   Fallback DOM : extraction des liens...
+[2026-07-19 08:43:36]   0 liens d'annonces trouvés (DOM)
+[2026-07-19 08:43:36] === Leboncoin : 0 annonce(s) ===
+[2026-07-19 08:43:36]   CSV trié (1 annonces) : proximité Ariège → km → prix
+[2026-07-19 08:43:36] 
+[2026-07-19 08:43:36] ══════════════════ RÉSUMÉ ══════════════════
+[2026-07-19 08:43:36] Total trouvées : 0
+[2026-07-19 08:43:36] Nouvelles      : 0
+[2026-07-19 08:43:36] Déjà connues   : 0
+[2026-07-19 08:43:36] Aucune nouvelle annonce depuis la dernière recherche.
+[2026-07-19 08:43:36] Résultats sauvegardés dans : C:\Users\antho\RechercheVoiture\toyota_auris_panoramique.csv
+[2026-07-19 08:43:36] ════════════════════════════════════════════
+[2026-07-19 08:43:37]   ✅ Message Telegram envoyé
+[2026-07-19 08:43:38]   ✅ CSV envoyé sur Telegram
+[2026-07-19 08:43:38] ⏳ Pause entre les recherches...
+[19/07/2026  8:46:02,02] Recherche terminee, push en cours... 

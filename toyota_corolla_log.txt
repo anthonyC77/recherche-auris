@@ -4815,3 +4815,53 @@ navigating to "https://www.leboncoin.fr/recherche?category=2&text=toyota+corolla
 [2026-07-17 08:00:42]   ⚠️  Telegram CSV tentative 1/3 échouée : ('Connection aborted.', ConnectionResetError(10054, 'Une connexion existante a dû être fermée par l’hôte distant', None, 10054, None))
 [2026-07-17 08:00:45]   ✅ CSV envoyé sur Telegram
 [2026-07-17 08:00:45] ⏳ Pause entre les recherches...
+[2026-07-18 07:51:05] ╔═════════════════════════════════════════════════╗
+[2026-07-18 07:51:05] ║  Toyota Corolla Break Hybride Toit Panoramique  ║
+[2026-07-18 07:51:05] ╚═════════════════════════════════════════════════╝
+[2026-07-18 07:51:05] Vérification des annonces existantes...
+[2026-07-18 07:51:05]   Vérification de 1 annonces en cours...
+[2026-07-18 07:51:06]   Nettoyage terminé : toutes les 1 annonces sont encore actives
+[2026-07-18 07:51:06] Annonces actives connues : 1
+[2026-07-18 07:51:06] === Leboncoin.fr — démarrage (Playwright/Chromium) ===
+[2026-07-18 07:51:06]   Chargement accueil LeBonCoin...
+[2026-07-18 07:51:11]   Chargement résultats de recherche LBC...
+[2026-07-18 07:51:11]   Erreur chargement recherche LBC : Page.goto: Target page, context or browser has been closed
+[2026-07-18 07:51:12]   CSV trié (1 annonces) : proximité Ariège → km → prix
+[2026-07-18 07:51:12] 
+[2026-07-18 07:51:12] ══════════════════ RÉSUMÉ ══════════════════
+[2026-07-18 07:51:12] Total trouvées : 0
+[2026-07-18 07:51:12] Nouvelles      : 0
+[2026-07-18 07:51:12] Déjà connues   : 0
+[2026-07-18 07:51:12] Aucune nouvelle annonce depuis la dernière recherche.
+[2026-07-18 07:51:12] Résultats sauvegardés dans : C:\Users\antho\RechercheVoiture\toyota_corolla_break.csv
+[2026-07-18 07:51:12] ════════════════════════════════════════════
+[2026-07-18 07:51:33]   ✅ Message Telegram envoyé
+[2026-07-18 07:51:34]   ✅ CSV envoyé sur Telegram
+[2026-07-18 07:51:34] ⏳ Pause entre les recherches...
+[2026-07-19 08:43:46] ╔═════════════════════════════════════════════════╗
+[2026-07-19 08:43:47] ║  Toyota Corolla Break Hybride Toit Panoramique  ║
+[2026-07-19 08:43:47] ╚═════════════════════════════════════════════════╝
+[2026-07-19 08:43:47] Vérification des annonces existantes...
+[2026-07-19 08:43:47]   Vérification de 1 annonces en cours...
+[2026-07-19 08:43:47]   Nettoyage terminé : toutes les 1 annonces sont encore actives
+[2026-07-19 08:43:47] Annonces actives connues : 1
+[2026-07-19 08:43:47] === Leboncoin.fr — démarrage (Playwright/Chromium) ===
+[2026-07-19 08:43:48]   Chargement accueil LeBonCoin...
+[2026-07-19 08:44:21]   Chargement résultats de recherche LBC...
+[2026-07-19 08:44:27]   0 annonces capturées via réseau
+[2026-07-19 08:44:27]   Fallback DOM : extraction des liens...
+[2026-07-19 08:44:27]   0 liens d'annonces trouvés (DOM)
+[2026-07-19 08:44:27] === Leboncoin : 0 annonce(s) ===
+[2026-07-19 08:44:27]   CSV trié (1 annonces) : proximité Ariège → km → prix
+[2026-07-19 08:44:27] 
+[2026-07-19 08:44:27] ══════════════════ RÉSUMÉ ══════════════════
+[2026-07-19 08:44:27] Total trouvées : 0
+[2026-07-19 08:44:27] Nouvelles      : 0
+[2026-07-19 08:44:27] Déjà connues   : 0
+[2026-07-19 08:44:27] Aucune nouvelle annonce depuis la dernière recherche.
+[2026-07-19 08:44:27] Résultats sauvegardés dans : C:\Users\antho\RechercheVoiture\toyota_corolla_break.csv
+[2026-07-19 08:44:27] ════════════════════════════════════════════
+[2026-07-19 08:44:28]   ⚠️  Telegram tentative 1/3 échouée : ('Connection aborted.', ConnectionResetError(10054, 'Une connexion existante a dû être fermée par l’hôte distant', None, 10054, None))
+[2026-07-19 08:44:31]   ✅ Message Telegram envoyé
+[2026-07-19 08:44:32]   ✅ CSV envoyé sur Telegram
+[2026-07-19 08:44:32] ⏳ Pause entre les recherches...
