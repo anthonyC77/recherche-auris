@@ -8578,3 +8578,72 @@ error: please commit or stash them.
 [2026-07-25 17:57:18]   ✅ CSV envoyé sur Telegram
 [2026-07-25 17:57:18] ⏳ Pause entre les recherches...
 [25/07/2026 17:58:41,99] Recherche terminee, push en cours... 
+To https://github.com/anthonyC77/recherche-auris.git
+   001f9cf..e910c9e  lancementLocal -> lancementLocal
+[25/07/2026 17:58:45,01] Push termine. 
+[02/08/2026 10:19:13,14] Demarrage lancement local 
+error: cannot pull with rebase: You have unstaged changes.
+error: please commit or stash them.
+[2026-08-02 10:19:16] ╔═══════════════════════════════════════════════════════╗
+[2026-08-02 10:19:16] ║  Toyota Auris Touring Sport Hybride Toit Panoramique  ║
+[2026-08-02 10:19:16] ╚═══════════════════════════════════════════════════════╝
+[2026-08-02 10:19:16] Vérification des annonces existantes...
+[2026-08-02 10:19:16]   Vérification de 1 annonces en cours...
+[2026-08-02 10:19:16]   Nettoyage terminé : toutes les 1 annonces sont encore actives
+[2026-08-02 10:19:16] Annonces actives connues : 1
+[2026-08-02 10:19:18] === Leboncoin.fr — démarrage (Playwright/Chromium) ===
+[2026-08-02 10:19:25]   Chargement accueil LeBonCoin...
+[2026-08-02 10:19:31]   Cookies acceptés
+[2026-08-02 10:19:31]   Chargement résultats de recherche LBC...
+[2026-08-02 10:19:43]   0 annonces capturées via réseau
+[2026-08-02 10:19:43]   35 annonces via __NEXT_DATA__ (fallback)
+[2026-08-02 10:19:43]   Analyse de 35 annonces...
+[2026-08-02 10:19:45]   (pas pano) Toyota Auris II Hybride 136h Dynamic
+[2026-08-02 10:19:48]   (pas pano) Toyota Auris HSD 136h Dynamic
+[2026-08-02 10:19:50]   (pas pano) Toyota Auris HYBRIDE 136H TENDANCE
+[2026-08-02 10:19:53]   (pas pano) Toyota Auris Hybride 136h Collection
+[2026-08-02 10:19:56]   (pas pano) TOYOTA Auris Hybride 136h Design
+[2026-08-02 10:19:58]   (pas pano) Toyota AURIS Hybride 136h Business
+[2026-08-02 10:20:01]   (pas pano) TOYOTA AURIS Hybride 136h Dynamic
+[2026-08-02 10:20:04]   (pas pano) TOYOTA AURIS Hybride 136h - CVT II BERLINE Style GARANTIE 12 MOIS
+[2026-08-02 10:20:06]   (pas pano) Toyota Auris hybride
+[2026-08-02 10:20:08]   (pas pano) Toyota Auris hybride
+[2026-08-02 10:20:10]   (pas pano) Toyota Auris Hybride
+[2026-08-02 10:20:13]   (pas pano) Toyota auris hybride
+[2026-08-02 10:20:15]   (pas pano) Toyota auris hybride
+[2026-08-02 10:20:18]   (pas pano) Toyota auris hybride
+[2026-08-02 10:20:20]   (pas pano) Toyota auris hybride
+[2026-08-02 10:20:22]   (pas pano) Toyota auris hybride
+[2026-08-02 10:20:24]   (pas pano) Toyota Auris hybride
+[2026-08-02 10:20:27]   (pas pano) Toyota Auris Hybride
+[2026-08-02 10:20:30]   (pas pano) Toyota auris hybride
+[2026-08-02 10:20:32]   (pas pano) Toyota Auris Hybride
+[2026-08-02 10:20:35]   (pas pano) Toyota Auris Hybride
+[2026-08-02 10:20:38]   (pas pano) Toyota Auris Hybride
+[2026-08-02 10:20:40]   (pas pano) Toyota Auris hybride
+[2026-08-02 10:20:42]   (pas pano) Toyota Auris Hybride
+[2026-08-02 10:20:44]   (pas pano) Toyota Auris Hybride
+[2026-08-02 10:20:46]   (pas pano) Toyota auris hybride
+[2026-08-02 10:20:48]   (pas pano) Toyota Auris Hybride
+[2026-08-02 10:20:51]   (pas pano) Toyota Auris Hybride
+[2026-08-02 10:20:53]   (pas pano) Toyota auris hybride
+[2026-08-02 10:20:56]   (pas pano) Toyota auris hybride
+[2026-08-02 10:20:58]   (pas pano) Toyota auris Hybride
+[2026-08-02 10:21:01]   (pas pano) Toyota Auris hybride
+[2026-08-02 10:21:04]   (pas pano) Toyota Auris hybride 2017
+[2026-08-02 10:21:06]   (pas pano) Toyota Auris hybride garantie
+[2026-08-02 10:21:09]   (pas pano) Toyota Auris Hybride
+[2026-08-02 10:21:09] === Leboncoin : 0 annonce(s) ===
+[2026-08-02 10:21:09]   CSV trié (1 annonces) : proximité Ariège → km → prix
+[2026-08-02 10:21:09] 
+[2026-08-02 10:21:09] ══════════════════ RÉSUMÉ ══════════════════
+[2026-08-02 10:21:09] Total trouvées : 0
+[2026-08-02 10:21:09] Nouvelles      : 0
+[2026-08-02 10:21:09] Déjà connues   : 0
+[2026-08-02 10:21:09] Aucune nouvelle annonce depuis la dernière recherche.
+[2026-08-02 10:21:09] Résultats sauvegardés dans : C:\Users\antho\RechercheVoiture\toyota_auris_panoramique.csv
+[2026-08-02 10:21:09] ════════════════════════════════════════════
+[2026-08-02 10:21:09]   ✅ Message Telegram envoyé
+[2026-08-02 10:21:10]   ✅ CSV envoyé sur Telegram
+[2026-08-02 10:21:10] ⏳ Pause entre les recherches...
+[02/08/2026 10:22:30,41] Recherche terminee, push en cours... 
