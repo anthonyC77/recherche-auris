@@ -8647,3 +8647,90 @@ error: please commit or stash them.
 [2026-08-02 10:21:10]   ✅ CSV envoyé sur Telegram
 [2026-08-02 10:21:10] ⏳ Pause entre les recherches...
 [02/08/2026 10:22:30,41] Recherche terminee, push en cours... 
+To https://github.com/anthonyC77/recherche-auris.git
+   e910c9e..49929b0  lancementLocal -> lancementLocal
+[02/08/2026 10:22:32,98] Push termine. 
+[02/08/2026 14:33:51,23] Demarrage lancement local 
+error: cannot pull with rebase: You have unstaged changes.
+error: please commit or stash them.
+[2026-08-02 14:33:54] ╔═══════════════════════════════════════════════════════╗
+[2026-08-02 14:33:54] ║  Toyota Auris Touring Sport Hybride Toit Panoramique  ║
+[2026-08-02 14:33:54] ╚═══════════════════════════════════════════════════════╝
+[2026-08-02 14:33:54] Vérification des annonces existantes...
+[2026-08-02 14:33:54]   Vérification de 1 annonces en cours...
+[2026-08-02 14:33:54]   Nettoyage terminé : toutes les 1 annonces sont encore actives
+[2026-08-02 14:33:54] Annonces actives connues : 1
+[2026-08-02 14:33:56] === Leboncoin.fr — démarrage (Playwright/Chromium) ===
+[2026-08-02 14:34:03]   Chargement accueil LeBonCoin...
+[2026-08-02 14:34:15]   Chargement résultats de recherche LBC...
+[2026-08-02 14:34:15]   Erreur chargement recherche LBC : Page.goto: Target page, context or browser has been closed
+[2026-08-02 14:34:15]   CSV trié (1 annonces) : proximité Ariège → km → prix
+[2026-08-02 14:34:15] 
+[2026-08-02 14:34:15] ══════════════════ RÉSUMÉ ══════════════════
+[2026-08-02 14:34:15] Total trouvées : 0
+[2026-08-02 14:34:15] Nouvelles      : 0
+[2026-08-02 14:34:15] Déjà connues   : 0
+[2026-08-02 14:34:15] Aucune nouvelle annonce depuis la dernière recherche.
+[2026-08-02 14:34:15] Résultats sauvegardés dans : C:\Users\antho\RechercheVoiture\toyota_auris_panoramique.csv
+[2026-08-02 14:34:15] ════════════════════════════════════════════
+[2026-08-02 14:34:16]   ✅ Message Telegram envoyé
+[2026-08-02 14:34:17]   ✅ CSV envoyé sur Telegram
+[2026-08-02 14:34:17] ⏳ Pause entre les recherches...
+[05/08/2026 12:13:01,18] Demarrage lancement local 
+error: cannot pull with rebase: You have unstaged changes.
+error: please commit or stash them.
+[2026-08-05 12:13:04] ╔═══════════════════════════════════════════════════════╗
+[2026-08-05 12:13:04] ║  Toyota Auris Touring Sport Hybride Toit Panoramique  ║
+[2026-08-05 12:13:04] ╚═══════════════════════════════════════════════════════╝
+[2026-08-05 12:13:04] Vérification des annonces existantes...
+[2026-08-05 12:13:04]   Vérification de 1 annonces en cours...
+[2026-08-05 12:13:05]   Nettoyage terminé : toutes les 1 annonces sont encore actives
+[2026-08-05 12:13:05] Annonces actives connues : 1
+[2026-08-05 12:13:06] === Leboncoin.fr — démarrage (Playwright/Chromium) ===
+[2026-08-05 12:13:13]   Chargement accueil LeBonCoin...
+[2026-08-05 12:13:17]   Avertissement accueil LBC : Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-08-05 12:13:17]   Chargement résultats de recherche LBC...
+[2026-08-05 12:13:17]   Erreur chargement recherche LBC : Page.goto: Target page, context or browser has been closed
+[2026-08-05 12:13:18]   CSV trié (1 annonces) : proximité Ariège → km → prix
+[2026-08-05 12:13:18] 
+[2026-08-05 12:13:18] ══════════════════ RÉSUMÉ ══════════════════
+[2026-08-05 12:13:18] Total trouvées : 0
+[2026-08-05 12:13:18] Nouvelles      : 0
+[2026-08-05 12:13:18] Déjà connues   : 0
+[2026-08-05 12:13:18] Aucune nouvelle annonce depuis la dernière recherche.
+[2026-08-05 12:13:18] Résultats sauvegardés dans : C:\Users\antho\RechercheVoiture\toyota_auris_panoramique.csv
+[2026-08-05 12:13:18] ════════════════════════════════════════════
+[2026-08-05 12:13:18]   ✅ Message Telegram envoyé
+[2026-08-05 12:13:19]   ✅ CSV envoyé sur Telegram
+[2026-08-05 12:13:19] ⏳ Pause entre les recherches...
+[06/08/2026 11:07:40,17] Demarrage lancement local 
+error: cannot pull with rebase: You have unstaged changes.
+error: please commit or stash them.
+[2026-08-06 11:07:43] ╔═══════════════════════════════════════════════════════╗
+[2026-08-06 11:07:43] ║  Toyota Auris Touring Sport Hybride Toit Panoramique  ║
+[2026-08-06 11:07:43] ╚═══════════════════════════════════════════════════════╝
+[2026-08-06 11:07:43] Vérification des annonces existantes...
+[2026-08-06 11:07:43]   Vérification de 1 annonces en cours...
+[2026-08-06 11:07:44]   Nettoyage terminé : toutes les 1 annonces sont encore actives
+[2026-08-06 11:07:44] Annonces actives connues : 1
+[2026-08-06 11:07:45] === Leboncoin.fr — démarrage (Playwright/Chromium) ===
+[2026-08-06 11:07:52]   Chargement accueil LeBonCoin...
+[2026-08-06 11:07:58]   Cookies acceptés
+[2026-08-06 11:07:58]   Chargement résultats de recherche LBC...
+[2026-08-06 11:08:02]   0 annonces capturées via réseau
+[2026-08-06 11:08:02]   Fallback DOM : extraction des liens...
+[2026-08-06 11:08:02]   0 liens d'annonces trouvés (DOM)
+[2026-08-06 11:08:03] === Leboncoin : 0 annonce(s) ===
+[2026-08-06 11:08:03]   CSV trié (1 annonces) : proximité Ariège → km → prix
+[2026-08-06 11:08:03] 
+[2026-08-06 11:08:03] ══════════════════ RÉSUMÉ ══════════════════
+[2026-08-06 11:08:03] Total trouvées : 0
+[2026-08-06 11:08:03] Nouvelles      : 0
+[2026-08-06 11:08:03] Déjà connues   : 0
+[2026-08-06 11:08:03] Aucune nouvelle annonce depuis la dernière recherche.
+[2026-08-06 11:08:03] Résultats sauvegardés dans : C:\Users\antho\RechercheVoiture\toyota_auris_panoramique.csv
+[2026-08-06 11:08:03] ════════════════════════════════════════════
+[2026-08-06 11:08:03]   ✅ Message Telegram envoyé
+[2026-08-06 11:08:04]   ✅ CSV envoyé sur Telegram
+[2026-08-06 11:08:04] ⏳ Pause entre les recherches...
+[06/08/2026 11:09:23,15] Recherche terminee, push en cours... 
