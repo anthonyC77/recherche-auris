@@ -8901,3 +8901,37 @@ error: please commit or stash them.
 [2026-08-12 06:56:08]   ✅ CSV envoyé sur Telegram
 [2026-08-12 06:56:08] ⏳ Pause entre les recherches...
 [12/08/2026  6:57:53,34] Recherche terminee, push en cours... 
+To https://github.com/anthonyC77/recherche-auris.git
+   86f33f2..ed5d4d2  lancementLocal -> lancementLocal
+[12/08/2026  6:57:56,54] Push termine. 
+[13/08/2026 19:49:40,12] Demarrage lancement local 
+error: cannot pull with rebase: You have unstaged changes.
+error: please commit or stash them.
+[2026-08-13 19:49:43] ╔═══════════════════════════════════════════════════════╗
+[2026-08-13 19:49:43] ║  Toyota Auris Touring Sport Hybride Toit Panoramique  ║
+[2026-08-13 19:49:43] ╚═══════════════════════════════════════════════════════╝
+[2026-08-13 19:49:43] Vérification des annonces existantes...
+[2026-08-13 19:49:43]   Vérification de 1 annonces en cours...
+[2026-08-13 19:49:43]   Nettoyage terminé : toutes les 1 annonces sont encore actives
+[2026-08-13 19:49:43] Annonces actives connues : 1
+[2026-08-13 19:49:44] === Leboncoin.fr — démarrage (Playwright/Chromium) ===
+[2026-08-13 19:49:51]   Chargement accueil LeBonCoin...
+[2026-08-13 19:49:58]   Cookies acceptés
+[2026-08-13 19:49:58]   Chargement résultats de recherche LBC...
+[2026-08-13 19:50:04]   0 annonces capturées via réseau
+[2026-08-13 19:50:04]   Fallback DOM : extraction des liens...
+[2026-08-13 19:50:04]   0 liens d'annonces trouvés (DOM)
+[2026-08-13 19:50:04] === Leboncoin : 0 annonce(s) ===
+[2026-08-13 19:50:04]   CSV trié (1 annonces) : proximité Ariège → km → prix
+[2026-08-13 19:50:04] 
+[2026-08-13 19:50:04] ══════════════════ RÉSUMÉ ══════════════════
+[2026-08-13 19:50:04] Total trouvées : 0
+[2026-08-13 19:50:04] Nouvelles      : 0
+[2026-08-13 19:50:04] Déjà connues   : 0
+[2026-08-13 19:50:04] Aucune nouvelle annonce depuis la dernière recherche.
+[2026-08-13 19:50:04] Résultats sauvegardés dans : C:\Users\antho\RechercheVoiture\toyota_auris_panoramique.csv
+[2026-08-13 19:50:04] ════════════════════════════════════════════
+[2026-08-13 19:50:04]   ✅ Message Telegram envoyé
+[2026-08-13 19:50:05]   ✅ CSV envoyé sur Telegram
+[2026-08-13 19:50:05] ⏳ Pause entre les recherches...
+[13/08/2026 19:51:21,24] Recherche terminee, push en cours... 
